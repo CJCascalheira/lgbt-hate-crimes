@@ -1,4 +1,4 @@
-race,total,place,race,religion,sexual_orientation,disability,gender,gender_identity
+state,total,place,race,religion,sexual_orientation,disability,gender,gender_identity
 Alabama,Total,,12,1,1,0,0,0
 ,Cities,,12,1,1,0,0,0
 ,,Birmingham,7,1,1,0,0,0
@@ -2015,5 +2015,3 @@ Wisconsin,Total,,22,8,3,0,0,1
 Wyoming,Total,,3,0,0,0,0,0
 ,Cities,,3,0,0,0,0,0
 ,,Gillette,3,0,0,0,0,0
-,,,,,,,,
-,,,,,,,,
