@@ -2,11 +2,12 @@
 library(tidyverse)
 
 # Import data
-hate_2017 <- read_csv("../data/table-13_hate-crime-incidents_2017.csv")
+files <- list.files(path = "data/table-13_hate-crimes", pattern = "*.csv")
 
-hate_2017
-
+for (i in seq_along(files)) {
+  year <- str_extract(files[i], "([0-9]){4}")
+  df <- read_csv(paste0("data/table-13_hate-crimes/", files[i]))
+  assign(paste0("hate_", year), df)
+}
 
 # CLEAN -------------------------------------------------------------------
-
-# 

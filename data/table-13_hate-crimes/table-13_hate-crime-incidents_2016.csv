@@ -1,0 +1,2019 @@
+race,total,place,race,religion,sexual_orientation,disability,gender,gender_identity
+Alabama,Total,,12,1,1,0,0,0
+,Cities,,12,1,1,0,0,0
+,,Birmingham,7,1,1,0,0,0
+,,Florence,1,0,0,0,0,0
+,,Foley,1,0,0,0,0,0
+,,Hoover,3,0,0,0,0,0
+Alaska,Total,,11,0,0,0,0,0
+,Cities,,11,0,0,0,0,0
+,,Anchorage,4,0,0,0,0,0
+,,Juneau,6,0,0,0,0,0
+,,Wasilla,1,0,0,0,0,0
+Arizona,Total, ,110,50,53,1,0,0
+,Cities,,105,48,53,1,0,0
+,,Apache Junction,2,0,0,0,0,0
+,,Chandler,2,2,0,0,0,0
+,,Gilbert,1,0,0,0,0,0
+,,Glendale,1,0,0,0,0,0
+,,Mesa,3,0,2,0,0,0
+,,Phoenix2,90,40,44,1,0,0
+,,Prescott Valley,1,0,1,0,0,0
+,,Sahuarita,1,0,0,0,0,0
+,,Scottsdale,1,3,0,0,0,0
+,,St. Johns,0,0,1,0,0,0
+,,Tempe,0,0,1,0,0,0
+,,Tucson,1,2,2,0,0,0
+,,Williams,0,0,1,0,0,0
+,,Yuma,2,1,1,0,0,0
+,Universities and Colleges,,1,2,0,0,0,0
+,,"Arizona State University, Main Campus",1,0,0,0,0,0
+,,University of Arizona,0,2,0,0,0,0
+,Metropolitan Counties,,4,0,0,0,0,0
+,,Maricopa,3,0,0,0,0,0
+,,Pima,1,0,0,0,0,0
+Arkansas,Total,,10,1,0,0,0,1
+,Cities,,5,1,0,0,0,1
+,,Fort Smith,3,1,0,0,0,0
+,,Jacksonville,2,0,0,0,0,0
+,,Little Rock,0,0,0,0,0,1
+,Metropolitan Counties,,3,0,0,0,0,0
+,,Sebastian,3,0,0,0,0,0
+,Nonmetropolitan Counties,,2,0,0,0,0,0
+,,Sevier,2,0,0,0,0,0
+California,Total,,522,171,208,2,3,27
+,Cities,,421,150,173,2,3,23
+,,Adelanto,1,0,1,0,0,0
+,,Alameda,3,0,0,0,0,0
+,,Alhambra,1,0,0,0,0,0
+,,Anaheim,1,0,0,0,0,0
+,,Antioch,2,0,0,0,0,0
+,,Arcata,2,0,0,0,0,0
+,,Azusa,2,0,0,0,0,0
+,,Bakersfield,8,0,0,0,0,0
+,,Baldwin Park,0,0,1,0,0,0
+,,Bellflower,0,0,1,0,0,0
+,,Berkeley,9,2,2,0,0,0
+,,Beverly Hills,1,0,0,0,0,0
+,,Brea,0,0,1,0,0,0
+,,Buena Park,2,1,0,0,0,0
+,,Burbank,1,0,0,0,0,0
+,,Calabasas,3,0,0,0,0,0
+,,Camarillo,1,0,0,0,0,0
+,,Campbell,0,1,0,0,0,0
+,,Capitola,1,0,0,0,0,0
+,,Central Marin,2,0,0,0,0,0
+,,Cerritos,0,0,1,0,0,0
+,,Chico,3,0,0,0,0,0
+,,Chino,2,0,1,0,0,0
+,,Chino Hills,1,0,0,0,0,0
+,,Chula Vista,1,2,2,0,0,0
+,,Citrus Heights,1,0,1,0,0,0
+,,Claremont,7,1,1,0,0,0
+,,Clayton,0,0,2,0,0,0
+,,Clearlake,1,0,0,0,0,0
+,,Clovis,1,0,0,0,0,0
+,,Coalinga,0,0,1,0,0,0
+,,Compton,0,0,0,0,0,1
+,,Concord,1,0,2,0,0,0
+,,Culver City,0,0,1,0,0,0
+,,Cupertino,2,1,0,0,0,0
+,,Danville,0,1,0,0,0,0
+,,Davis,5,1,1,0,0,1
+,,Desert Hot Springs,0,0,1,0,0,0
+,,Downey,1,0,0,0,0,0
+,,East Palo Alto,0,0,1,0,0,0
+,,Eastvale,0,1,0,0,0,0
+,,Elk Grove,1,0,0,0,0,0
+,,El Segundo,2,0,0,0,0,0
+,,Encinitas,1,0,0,0,0,0
+,,Escondido,1,0,0,0,0,0
+,,Fairfield,1,1,1,0,0,0
+,,Farmersville,0,1,0,0,0,0
+,,Folsom,0,1,0,0,0,0
+,,Fort Bragg,1,1,1,0,0,0
+,,Fremont,1,0,0,0,0,0
+,,Fresno,7,3,3,0,0,0
+,,Fullerton,1,0,1,0,0,0
+,,Garden Grove,1,1,0,0,0,0
+,,Glendale,1,1,0,0,0,0
+,,Hanford,0,1,0,0,0,0
+,,Hawaiian Gardens,0,0,0,0,0,1
+,,Hawthorne,0,1,0,0,0,0
+,,Hayward,1,1,0,0,0,0
+,,Highland,1,0,0,0,0,0
+,,Hollister,0,0,1,0,0,0
+,,Huntington Beach,3,3,0,0,0,0
+,,Huntington Park,0,0,1,0,0,0
+,,Irvine,2,0,0,0,0,0
+,,Jurupa Valley,1,0,0,0,0,0
+,,Kingsburg,1,0,0,0,0,0
+,,Laguna Beach,1,0,0,0,0,0
+,,La Habra,1,0,0,0,0,0
+,,Lake Elsinore,1,0,1,0,0,0
+,,Lakewood,3,0,1,0,0,0
+,,La Mesa,2,1,0,0,0,0
+,,La Mirada,0,2,0,0,0,0
+,,Lancaster,5,0,2,0,0,1
+,,La Puente,0,0,1,0,0,0
+,,Loma Linda,1,0,0,0,0,0
+,,Long Beach,2,2,3,0,0,1
+,,Los Angeles,112,43,58,0,1,13
+,,Malibu,2,0,0,0,0,0
+,,Mammoth Lakes,1,0,0,0,0,0
+,,Manteca,5,0,0,0,0,0
+,,Merced,0,0,1,0,0,1
+,,Modesto,6,4,1,0,0,0
+,,Montclair,1,1,0,0,0,0
+,,Monterey,1,0,0,0,0,0
+,,Mountain View,0,1,0,0,0,0
+,,Murrieta,0,0,0,0,1,0
+,,Napa,0,0,1,0,0,0
+,,National City,1,0,0,0,0,0
+,,Newark,1,0,0,0,0,0
+,,Norco,2,0,0,0,0,0
+,,Norwalk,1,0,0,0,0,0
+,,Novato,1,1,0,0,0,0
+,,Oakland,3,3,3,0,0,0
+,,Oceanside,2,2,3,0,0,0
+,,Orange,1,0,0,0,0,0
+,,Oxnard,4,1,1,0,0,0
+,,Pacific Grove,1,0,0,0,0,0
+,,Palmdale,6,2,0,0,0,0
+,,Palm Springs,3,0,0,0,0,0
+,,Palo Alto,3,1,0,0,0,0
+,,Paradise,1,0,0,0,0,0
+,,Parlier,0,0,1,0,0,0
+,,Pasadena,1,1,0,0,0,0
+,,Perris,0,1,0,0,0,0
+,,Petaluma,1,0,0,0,0,0
+,,Placentia,1,0,0,0,0,0
+,,Pomona,2,1,2,0,0,0
+,,Poway,0,0,1,0,0,0
+,,Rancho Cucamonga,4,0,0,0,0,0
+,,Rancho Palos Verdes,1,0,0,0,0,0
+,,Redding,7,1,2,0,0,0
+,,Redlands,4,0,2,0,0,0
+,,Redwood City,2,0,2,0,0,0
+,,Rialto,1,0,0,0,0,0
+,,Richmond,4,0,0,0,0,0
+,,Ridgecrest,1,0,0,0,0,0
+,,Riverside,5,1,2,0,0,0
+,,Roseville,7,4,0,0,0,0
+,,Sacramento,2,0,4,0,0,0
+,,Salinas,0,1,0,0,0,0
+,,San Bernardino2,6,0,1,0,0,0
+,,San Bruno,2,0,0,0,0,0
+,,San Diego,16,7,12,0,0,0
+,,San Fernando,0,1,1,0,0,0
+,,San Francisco2,11,7,14,0,1,4
+,,San Jose,10,7,2,0,0,0
+,,San Leandro,15,3,3,1,0,0
+,,San Luis Obispo,2,0,0,0,0,0
+,,San Marcos,1,1,0,0,0,0
+,,San Mateo,0,1,1,0,0,0
+,,San Rafael,1,0,0,0,0,0
+,,San Ramon,4,0,0,0,0,0
+,,Santa Ana,2,3,1,0,0,0
+,,Santa Clarita,6,4,0,0,0,0
+,,Santa Cruz,7,3,2,0,0,0
+,,Santa Monica,1,1,1,0,0,0
+,,Santa Rosa,0,0,1,0,0,0
+,,Santee,0,1,0,0,0,0
+,,Sebastopol,1,0,0,0,0,0
+,,Simi Valley,1,1,0,0,0,0
+,,Solvang,0,0,1,0,0,0
+,,Sonoma,1,0,0,0,0,0
+,,Sonora,1,0,0,0,0,0
+,,South Gate,0,1,1,0,0,0
+,,South San Francisco,0,4,0,0,0,0
+,,Stockton,2,0,0,1,0,0
+,,Suisun City,1,0,0,0,0,0
+,,Sunnyvale,0,1,0,0,0,0
+,,Thousand Oaks,0,1,0,0,0,0
+,,Torrance,0,1,0,0,0,0
+,,Turlock,3,0,0,0,0,0
+,,Twentynine Palms,1,0,0,0,0,0
+,,Ukiah,0,0,1,0,0,0
+,,Union City,0,0,1,0,0,0
+,,Vacaville,1,0,0,0,0,0
+,,Vallejo,2,0,0,0,0,0
+,,Ventura,2,0,1,0,0,0
+,,Victorville,1,0,1,0,0,0
+,,Walnut Creek,1,1,1,0,0,0
+,,Watsonville,0,1,0,0,0,0
+,,West Covina,1,0,0,0,0,0
+,,West Hollywood,2,0,5,0,0,0
+,,Westminster,3,0,1,0,0,0
+,,Wildomar,1,0,0,0,0,0
+,,Windsor,2,0,0,0,0,0
+,Universities and Colleges,,22,7,9,0,0,1
+,,"California State Polytechnic University, San Luis Obispo",1,0,0,0,0,0
+,,California State University:,,,,,,
+,,Dominguez Hills,4,0,0,0,0,0
+,,Fullerton,0,0,1,0,0,0
+,,Long Beach,2,0,0,0,0,0
+,,San Jose,5,0,0,0,0,0
+,,Stanislaus,0,0,1,0,0,0
+,,Foothill-De Anza College,0,0,1,0,0,1
+,,Humboldt State University,1,1,1,0,0,0
+,,Riverside Community College,0,1,0,0,0,0
+,,San Diego State University,3,0,0,0,0,0
+,,University of California:,,,,,,
+,,Berkeley,1,2,1,0,0,0
+,,Davis,1,0,0,0,0,0
+,,Los Angeles,2,1,1,0,0,0
+,,Riverside,0,1,0,0,0,0
+,,San Diego,2,0,1,0,0,0
+,,San Francisco,0,1,0,0,0,0
+,,Santa Cruz,0,0,1,0,0,0
+,,Ventura County Community College District,0,0,1,0,0,0
+,Metropolitan Counties,,58,9,20,0,0,2
+,,Butte,0,0,1,0,0,0
+,,El Dorado,0,1,0,0,0,0
+,,Fresno,0,0,1,0,0,0
+,,Los Angeles,17,3,6,0,0,0
+,,Orange,2,0,0,0,0,0
+,,Riverside,3,0,1,0,0,1
+,,Sacramento,8,1,1,0,0,0
+,,San Bernardino,3,2,1,0,0,1
+,,San Diego,13,1,4,0,0,0
+,,San Mateo,1,1,1,0,0,0
+,,Santa Barbara,1,0,0,0,0,0
+,,Santa Clara,2,0,0,0,0,0
+,,Shasta,2,0,0,0,0,0
+,,Solano,1,0,0,0,0,0
+,,Sonoma,1,0,3,0,0,0
+,,Sutter,1,0,0,0,0,0
+,,Ventura,2,0,0,0,0,0
+,,Yuba,1,0,1,0,0,0
+,Nonmetropolitan Counties,,3,3,0,0,0,0
+,,Amador,0,1,0,0,0,0
+,,Humboldt,0,1,0,0,0,0
+,,Lake,1,0,0,0,0,0
+,,Mendocino,2,0,0,0,0,0
+,,Tuolumne,0,1,0,0,0,0
+,Other Agencies,,18,2,6,0,0,1
+,,California State Fair,1,0,0,0,0,0
+,,"East Bay Regional Parks, Alameda County",0,1,0,0,0,0
+,,Fontana Unified School District,0,0,1,0,0,0
+,,Los Angeles Transportation Services Bureau2,10,0,4,0,0,1
+,,Port of San Diego Harbor,2,1,0,0,0,0
+,,San Francisco Bay Area Rapid Transit: ,,,,,,
+,,Alameda County,2,0,0,0,0,0
+,,Contra Costa County,2,0,0,0,0,0
+,,Santa Clara Transit District,1,0,1,0,0,0
+Colorado,Total,,67,19,23,0,0,0
+,Cities,,47,7,17,0,0,0
+,,Aspen,0,1,0,0,0,0
+,,Aurora,15,0,3,0,0,0
+,,Boulder,2,1,1,0,0,0
+,,Breckenridge,0,0,1,0,0,0
+,,Carbondale,1,0,0,0,0,0
+,,Centennial,2,0,0,0,0,0
+,,Colorado Springs,1,1,4,0,0,0
+,,Delta,0,0,1,0,0,0
+,,Denver,10,3,6,0,0,0
+,,Dillon,0,1,0,0,0,0
+,,Erie,1,0,0,0,0,0
+,,Florence,1,0,0,0,0,0
+,,Fort Collins,2,0,0,0,0,0
+,,Fort Lupton,1,0,0,0,0,0
+,,Fountain,0,0,1,0,0,0
+,,Golden,1,0,0,0,0,0
+,,Grand Junction,3,0,0,0,0,0
+,,Longmont,3,0,0,0,0,0
+,,Loveland,1,0,0,0,0,0
+,,Nederland,1,0,0,0,0,0
+,,Pueblo,1,0,0,0,0,0
+,,Sterling,1,0,0,0,0,0
+,Universities and Colleges,,2,3,3,0,0,0
+,,Auraria Higher Education Center 3,0,0,1,0,0,0
+,,"University of Colorado, Boulder",2,3,1,0,0,0
+,,University of Northern Colorado,0,0,1,0,0,0
+,Metropolitan Counties,,15,8,3,0,0,0
+,,Adams,1,0,0,0,0,0
+,,Arapahoe,2,1,2,0,0,0
+,,Boulder,1,1,0,0,0,0
+,,Douglas,2,0,0,0,0,0
+,,El Paso,1,0,0,0,0,0
+,,Larimer2,6,6,1,0,0,0
+,,Mesa,1,0,0,0,0,0
+,,Teller,1,0,0,0,0,0
+,Nonmetropolitan Counties,,3,1,0,0,0,0
+,,Custer,1,0,0,0,0,0
+,,Garfield,1,0,0,0,0,0
+,,San Juan,1,0,0,0,0,0
+,,Summit,0,1,0,0,0,0
+Connecticut,Total,,62,30,14,0,0,0
+,Cities,,59,27,12,0,0,0
+,,Bloomfield,0,1,1,0,0,0
+,,Bridgeport,5,1,0,0,0,0
+,,Bristol,0,0,2,0,0,0
+,,Clinton,1,0,0,0,0,0
+,,Danbury,3,5,1,0,0,0
+,,Darien,0,1,0,0,0,0
+,,Greenwich,0,1,0,0,0,0
+,,Groton,1,0,0,0,0,0
+,,Groton Town,1,0,0,0,0,0
+,,Guilford,1,0,0,0,0,0
+,,Hartford,5,0,1,0,0,0
+,,Ledyard,0,0,1,0,0,0
+,,Madison,0,1,0,0,0,0
+,,Manchester,6,0,1,0,0,0
+,,Middletown,1,1,0,0,0,0
+,,Naugatuck,1,0,0,0,0,0
+,,New Haven,4,3,2,0,0,0
+,,Newington,1,0,1,0,0,0
+,,New London,0,2,0,0,0,0
+,,Norwalk,5,2,0,0,0,0
+,,Norwich,1,0,0,0,0,0
+,,Old Saybrook,1,0,0,0,0,0
+,,Ridgefield,0,1,0,0,0,0
+,,Rocky Hill,0,1,0,0,0,0
+,,Shelton,0,1,0,0,0,0
+,,Southington,1,0,0,0,0,0
+,,Stamford,5,1,2,0,0,0
+,,Stratford,1,0,0,0,0,0
+,,Torrington,1,2,0,0,0,0
+,,Trumbull,1,0,0,0,0,0
+,,Vernon,1,0,0,0,0,0
+,,Wallingford,1,0,0,0,0,0
+,,Waterbury,6,0,0,0,0,0
+,,Waterford,0,1,0,0,0,0
+,,West Hartford,1,1,0,0,0,0
+,,Westport,2,0,0,0,0,0
+,,Wethersfield,1,0,0,0,0,0
+,,Willimantic,1,0,0,0,0,0
+,,Woodbridge,0,1,0,0,0,0
+,Universities and Colleges,,0,1,1,0,0,0
+,,Southern Connecticut State University,0,1,1,0,0,0
+,State Police Agencies,,2,2,1,0,0,0
+,,Connecticut State Police,2,2,1,0,0,0
+,Tribal Agencies,,1,0,0,0,0,0
+,,Mashantucket Pequot Tribal,1,0,0,0,0,0
+Delaware,Total,,11,3,1,0,0,0
+,Cities,,3,1,0,0,0,0
+,,Camden,1,0,0,0,0,0
+,,Newark,1,0,0,0,0,0
+,,Rehoboth Beach,1,0,0,0,0,0
+,,Smyrna,0,1,0,0,0,0
+,Metropolitan Counties,,3,1,0,0,0,0
+,,New Castle County Police Department,3,1,0,0,0,0
+,State Police Agencies,,3,1,1,0,0,0
+,,State Police:,,,,,,
+,,Kent County,1,0,0,0,0,0
+,,New Castle County,2,1,1,0,0,0
+,Other Agencies,,2,0,0,0,0,0
+,,Park Rangers,2,0,0,0,0,0
+District of Columbia,Total,,33,18,42,2,0,20
+,Cities,,26,18,40,1,0,19
+,,Washington,26,18,40,1,0,19
+,Other Agencies,,7,0,2,1,0,1
+,,Metro Transit Police,7,0,2,1,0,1
+Florida,Total,,43,19,32,1,0,1
+,Cities,,27,14,23,1,0,0
+,,Arcadia,1,0,0,0,0,0
+,,Cape Coral,1,0,0,0,0,0
+,,Casselberry,0,1,0,0,0,0
+,,Cocoa,0,0,1,0,0,0
+,,Coral Gables,1,0,0,0,0,0
+,,Davie,3,1,1,0,0,0
+,,Fort Myers,2,0,1,0,0,0
+,,Gainesville,4,0,0,0,0,0
+,,Homestead,1,0,1,0,0,0
+,,Largo,1,0,1,0,0,0
+,,Miami Beach,0,4,12,1,0,0
+,,New Port Richey,2,0,0,0,0,0
+,,North Miami,0,0,1,0,0,0
+,,North Miami Beach,0,2,0,0,0,0
+,,Oakland Park,0,0,1,0,0,0
+,,Orlando,3,1,1,0,0,0
+,,Palm Bay,3,1,0,0,0,0
+,,Pinellas Park,1,0,0,0,0,0
+,,Southwest Ranches,1,1,0,0,0,0
+,,Sunrise,0,1,0,0,0,0
+,,Tamarac,0,0,1,0,0,0
+,,Tampa,2,0,1,0,0,0
+,,Temple Terrace,0,0,1,0,0,0
+,,Titusville,0,1,0,0,0,0
+,,West Palm Beach,0,1,0,0,0,0
+,,West Park,1,0,0,0,0,0
+,Universities and Colleges,,1,0,0,0,0,0
+,,University of Florida,1,0,0,0,0,0
+,Metropolitan Counties,,15,5,9,0,0,1
+,,Brevard,1,0,2,0,0,0
+,,Charlotte,1,0,0,0,0,0
+,,Clay,2,0,0,0,0,0
+,,Escambia,2,0,0,0,0,0
+,,Hillsborough,1,0,0,0,0,0
+,,Lake,1,0,0,0,0,0
+,,Lee,1,0,1,0,0,0
+,,Miami-Dade,0,1,0,0,0,0
+,,Orange,0,1,1,0,0,1
+,,Osceola,1,0,0,0,0,0
+,,Palm Beach,0,1,0,0,0,0
+,,Pasco,0,0,1,0,0,0
+,,Pinellas,1,0,1,0,0,0
+,,Seminole,0,1,0,0,0,0
+,,St. Johns,0,0,1,0,0,0
+,,St. Lucie,0,1,0,0,0,0
+,,Volusia,4,0,2,0,0,0
+Georgia,Total,,25,2,12,0,0,0
+,Cities,,1,0,5,0,0,0
+,,Atlanta,0,0,5,0,0,0
+,,Conyers,1,0,0,0,0,0
+,Universities and Colleges,,1,0,0,0,0,0
+,,University of Georgia,1,0,0,0,0,0
+,Metropolitan Counties,,23,2,7,0,0,0
+,,Cobb County Police Department,19,2,4,0,0,0
+,,Fulton County Police Department,0,0,1,0,0,0
+,,Gwinnett County Police Department,4,0,2,0,0,0
+Idaho,Total,,16,7,4,0,0,0
+,Cities,,13,6,3,0,0,0
+,,Blackfoot,0,0,1,0,0,0
+,,Boise,0,2,1,0,0,0
+,,Chubbuck,1,0,0,0,0,0
+,,Coeur d'Alene,3,2,0,0,0,0
+,,Meridian,1,1,0,0,0,0
+,,Moscow,0,0,1,0,0,0
+,,Mountain Home,1,0,0,0,0,0
+,,Nampa,2,0,0,0,0,0
+,,Payette,0,1,0,0,0,0
+,,Pocatello,3,0,0,0,0,0
+,,Twin Falls,2,0,0,0,0,0
+,Metropolitan Counties,,2,1,1,0,0,0
+,,Ada,0,1,0,0,0,0
+,,Canyon,2,0,1,0,0,0
+,Nonmetropolitan Counties,,1,0,0,0,0,0
+,,Benewah,1,0,0,0,0,0
+Illinois,Total,,73,13,21,0,1,3
+,Cities,,71,12,20,0,0,3
+,,Algonquin,2,0,0,0,0,0
+,,Aurora,3,0,0,0,0,0
+,,Berwyn,3,0,0,0,0,0
+,,Bradley,3,0,0,0,0,0
+,,Braidwood,1,0,0,0,0,0
+,,Centralia,1,0,0,0,0,0
+,,Champaign,1,0,1,0,0,0
+,,Charleston,1,0,0,0,0,0
+,,Chicago,26,9,14,0,0,2
+,,Collinsville,1,0,0,0,0,0
+,,Crete,0,0,1,0,0,0
+,,Crystal Lake,1,0,0,0,0,0
+,,De Kalb,1,0,0,0,0,0
+,,Downers Grove,1,0,0,0,0,0
+,,Effingham,1,1,0,0,0,0
+,,Elk Grove Village,1,0,0,0,0,0
+,,Flossmoor,1,0,0,0,0,0
+,,Glenwood,1,0,0,0,0,0
+,,Grayslake,1,0,0,0,0,0
+,,Homewood,1,0,0,0,0,0
+,,Joliet,1,0,1,0,0,0
+,,Mokena,1,0,0,0,0,0
+,,Monmouth,1,0,0,0,0,0
+,,Morrison,0,0,1,0,0,0
+,,New Lenox,1,0,0,0,0,0
+,,Normal,3,0,0,0,0,0
+,,Oak Lawn,1,0,0,0,0,0
+,,Pekin,1,0,0,0,0,0
+,,Peoria,1,0,0,0,0,0
+,,Plainfield,1,1,0,0,0,0
+,,Robinson,1,0,0,0,0,0
+,,Rockford,3,0,2,0,0,0
+,,Salem,1,0,0,0,0,0
+,,Springfield,2,0,0,0,0,0
+,,Urbana,0,1,0,0,0,0
+,,West Chicago,1,0,0,0,0,0
+,,Wheeling,0,0,0,0,0,1
+,,Woodstock,1,0,0,0,0,0
+,Universities and Colleges,,1,0,0,0,0,0
+,,"Southern Illinois University, Carbondale",1,0,0,0,0,0
+,Metropolitan Counties,,1,1,1,0,1,0
+,,Champaign,0,1,0,0,1,0
+,,Sangamon,1,0,0,0,0,0
+,,Will,0,0,1,0,0,0
+Indiana,Total,,52,11,14,0,1,0
+,Cities,,42,5,11,0,0,0
+,,Anderson,0,0,1,0,0,0
+,,Bloomington,7,0,2,0,0,0
+,,Fort Wayne,2,0,2,0,0,0
+,,Indianapolis,20,3,5,0,0,0
+,,La Porte,2,0,0,0,0,0
+,,Muncie,1,0,0,0,0,0
+,,Munster,0,1,0,0,0,0
+,,Plainfield,0,1,0,0,0,0
+,,South Bend,10,0,0,0,0,0
+,,Westville,0,0,1,0,0,0
+,Universities and Colleges,,3,0,2,0,0,0
+,,Ball State University,1,0,0,0,0,0
+,,"Indiana University, Indianapolis",1,0,0,0,0,0
+,,Purdue University,1,0,2,0,0,0
+,Metropolitan Counties,,1,0,1,0,0,0
+,,Brown,0,0,1,0,0,0
+,,Porter,1,0,0,0,0,0
+,Nonmetropolitan Counties,,0,0,0,0,1,0
+,,Dubois,0,0,0,0,1,0
+,State Police Agencies,,6,6,0,0,0,0
+,,Indiana State Police ,3,0,0,0,0,0
+,,State Police:,,,,,,
+,,Daviess County,0,1,0,0,0,0
+,,Marion County,1,1,0,0,0,0
+,,Monroe County,0,2,0,0,0,0
+,,Putnam County,1,0,0,0,0,0
+,,Scott County,1,0,0,0,0,0
+,,Vanderburgh County,0,1,0,0,0,0
+,,Washington County,0,1,0,0,0,0
+Iowa,Total,,13,2,2,0,0,0
+,Cities,,10,2,1,0,0,0
+,,Boone,1,0,0,0,0,0
+,,Clinton,0,1,0,0,0,0
+,,Des Moines,2,1,0,0,0,0
+,,Dubuque,1,0,0,0,0,0
+,,Iowa City,3,0,0,0,0,0
+,,Newton,1,0,0,0,0,0
+,,North Liberty,1,0,0,0,0,0
+,,Oskaloosa,1,0,0,0,0,0
+,,West Des Moines,0,0,1,0,0,0
+,Universities and Colleges,,3,0,0,0,0,0
+,,Iowa State University,1,0,0,0,0,0
+,,University of Iowa,2,0,0,0,0,0
+,Metropolitan Counties,,0,0,1,0,0,0
+,,Linn,0,0,1,0,0,0
+Kansas,Total,,36,5,5,3,0,0
+,Cities,,27,3,4,2,0,0
+,,Andover,1,0,0,0,0,0
+,,Chanute,1,0,0,0,0,0
+,,Coffeyville,0,0,0,1,0,0
+,,Dodge City,2,0,0,1,0,0
+,,Edwardsville,1,0,0,0,0,0
+,,El Dorado,1,1,0,0,0,0
+,,Elwood,1,0,0,0,0,0
+,,Garden City,0,0,1,0,0,0
+,,Hays,1,0,0,0,0,0
+,,Hiawatha,1,0,0,0,0,0
+,,Hutchinson,0,0,1,0,0,0
+,,Independence,1,0,0,0,0,0
+,,Lenexa,1,0,0,0,0,0
+,,Newton,2,0,0,0,0,0
+,,Oakley,1,0,0,0,0,0
+,,Ottawa,1,0,0,0,0,0
+,,Overland Park,2,2,0,0,0,0
+,,Pittsburg,1,0,0,0,0,0
+,,Pratt,1,0,0,0,0,0
+,,Salina,3,0,0,0,0,0
+,,Wichita,5,0,2,0,0,0
+,Universities and Colleges,,3,0,0,0,0,0
+,,"University of Kansas, Medical Center3",1,0,0,0,0,0
+,,Washburn University,1,0,0,0,0,0
+,,Wichita State University,1,0,0,0,0,0
+,Metropolitan Counties,,5,2,1,0,0,0
+,,Linn,1,0,0,0,0,0
+,,Riley County Police Department,2,1,1,0,0,0
+,,Shawnee,1,1,0,0,0,0
+,,Wabaunsee,1,0,0,0,0,0
+,Nonmetropolitan Counties,,1,0,0,1,0,0
+,,Greeley,0,0,0,1,0,0
+,,Reno,1,0,0,0,0,0
+Kentucky,Total,,135,43,22,2,1,3
+,Cities,,100,30,19,1,1,3
+,,Alexandria,1,0,0,0,0,0
+,,Ashland,0,1,0,0,0,0
+,,Audubon Park,1,0,0,0,0,0
+,,Bellevue,1,0,1,0,0,0
+,,Benton,0,1,1,0,0,0
+,,Berea,2,1,0,0,0,0
+,,Bowling Green,6,2,3,0,0,0
+,,Cave City,1,0,0,0,0,0
+,,Cloverport,1,0,0,0,0,0
+,,Covington,4,3,3,0,0,0
+,,Cynthiana,1,0,0,0,0,0
+,,Elizabethtown,0,0,1,0,0,0
+,,Elkton,0,1,0,0,0,0
+,,Elsmere,2,0,1,0,0,0
+,,Fort Mitchell,0,0,1,0,0,0
+,,Frankfort,2,1,0,0,0,0
+,,Franklin,2,0,0,0,0,0
+,,Georgetown,3,0,0,0,0,0
+,,Glasgow,1,0,1,0,0,0
+,,Henderson,2,0,0,0,0,0
+,,Highland Heights,0,1,0,0,0,0
+,,Hopkinsville,5,0,0,0,0,0
+,,Lakeside Park-Crestview Hills,0,0,1,0,0,0
+,,Lancaster,1,0,0,0,0,0
+,,Lexington,26,9,4,1,1,0
+,,Louisville Metro,5,3,1,0,0,2
+,,Loyall,1,0,0,0,0,0
+,,Madisonville,2,2,0,0,0,0
+,,Mayfield,2,0,0,0,0,0
+,,Mount Washington,3,0,0,0,0,0
+,,Murray,1,1,0,0,0,0
+,,Nicholasville,5,1,0,0,0,0
+,,Owensboro,4,0,0,0,0,0
+,,Paducah,2,1,0,0,0,0
+,,Paris,0,1,0,0,0,0
+,,Radcliff,3,0,0,0,0,1
+,,Richmond,1,0,0,0,0,0
+,,Shelbyville,2,0,0,0,0,0
+,,Shively,0,0,1,0,0,0
+,,Stanton,0,1,0,0,0,0
+,,St. Matthews,3,0,0,0,0,0
+,,Versailles,1,0,0,0,0,0
+,,Winchester,3,0,0,0,0,0
+,Universities and Colleges,,3,1,2,0,0,0
+,,Eastern Kentucky University,1,0,0,0,0,0
+,,Murray State University,0,1,0,0,0,0
+,,University of Kentucky,1,0,0,0,0,0
+,,University of Louisville,0,0,2,0,0,0
+,,Western Kentucky University,1,0,0,0,0,0
+,Metropolitan Counties,,14,4,1,1,0,0
+,,Boone,1,0,1,0,0,0
+,,Boyd,1,0,0,0,0,0
+,,Bracken,0,0,0,1,0,0
+,,Bullitt,4,0,0,0,0,0
+,,Campbell County Police Department,1,0,0,0,0,0
+,,Christian,1,0,0,0,0,0
+,,Daviess,1,1,0,0,0,0
+,,Hardin,1,0,0,0,0,0
+,,Jefferson,0,1,0,0,0,0
+,,Kenton,1,0,0,0,0,0
+,,Oldham County Police Department,1,0,0,0,0,0
+,,Pendleton,0,1,0,0,0,0
+,,Shelby,1,1,0,0,0,0
+,,Spencer,1,0,0,0,0,0
+,Nonmetropolitan Counties,,10,1,0,0,0,0
+,,Anderson,1,0,0,0,0,0
+,,Franklin,1,1,0,0,0,0
+,,Letcher,1,0,0,0,0,0
+,,Mason,1,0,0,0,0,0
+,,McCracken,1,0,0,0,0,0
+,,McCreary,1,0,0,0,0,0
+,,Muhlenberg County Police Department,2,0,0,0,0,0
+,,Nelson,1,0,0,0,0,0
+,,Wolfe,1,0,0,0,0,0
+,State Police Agencies,,5,6,0,0,0,0
+,,State Police:,,,,,,
+,,Bowling Green,1,3,0,0,0,0
+,,Harlan,0,1,0,0,0,0
+,,Hazard,2,0,0,0,0,0
+,,Henderson,1,1,0,0,0,0
+,,Mayfield,1,0,0,0,0,0
+,,Richmond,0,1,0,0,0,0
+,Other Agencies,,3,1,0,0,0,0
+,,Fayette County Schools,2,0,0,0,0,0
+,,Jefferson County School District,1,1,0,0,0,0
+Louisiana,Total,,20,3,4,0,0,0
+,Cities,,7,2,2,0,0,0
+,,Baton Rouge,2,0,1,0,0,0
+,,New Orleans2,3,2,1,0,0,0
+,,Thibodaux,1,0,0,0,0,0
+,,Westlake,1,0,0,0,0,0
+,Metropolitan Counties,,11,1,2,0,0,0
+,,Bossier,1,0,1,0,0,0
+,,Caddo,0,1,0,0,0,0
+,,St. Charles,6,0,0,0,0,0
+,,St. John the Baptist,4,0,1,0,0,0
+,Nonmetropolitan Counties,,2,0,0,0,0,0
+,,Avoyelles,1,0,0,0,0,0
+,,Madison,1,0,0,0,0,0
+Maine,Total,,21,11,8,0,0,0
+,Cities,,16,10,6,0,0,0
+,,Augusta,0,1,1,0,0,0
+,,Biddeford,0,1,0,0,0,0
+,,Farmington,0,0,1,0,0,0
+,,Lewiston,2,0,0,0,0,0
+,,Lincoln,1,0,0,0,0,0
+,,Old Orchard Beach,1,0,0,0,0,0
+,,Portland,6,3,2,0,0,0
+,,Saco,4,2,0,0,0,0
+,,Sanford,1,0,1,0,0,0
+,,Scarborough,0,1,0,0,0,0
+,,South Portland,0,2,1,0,0,0
+,,Waterville,1,0,0,0,0,0
+,Universities and Colleges,,4,1,2,0,0,0
+,,University of Southern Maine,4,1,2,0,0,0
+,State Police Agencies,,1,0,0,0,0,0
+,,"State Police, Kennebec County",1,0,0,0,0,0
+Maryland,Total,,24,7,6,0,0,0
+,Cities,,2,0,3,0,0,0
+,,Baltimore,1,0,2,0,0,0
+,,Laurel,1,0,1,0,0,0
+,Universities and Colleges,,1,0,0,0,0,0
+,,"University of Maryland, College Park",1,0,0,0,0,0
+,Metropolitan Counties,,20,6,3,0,0,0
+,,Anne Arundel County Police Department,10,5,1,0,0,0
+,,Baltimore County Police Department,1,0,0,0,0,0
+,,Harford2,4,0,0,0,0,0
+,,Howard County Police Department,1,0,0,0,0,0
+,,Montgomery County Police Department,4,1,2,0,0,0
+,State Police Agencies,,0,1,0,0,0,0
+,,"State Police, Anne Arundel County",0,1,0,0,0,0
+,Other Agencies,,1,0,0,0,0,0
+,,"National Capitol Park Police, Montgomery County",1,0,0,0,0,0
+Massachusetts,Total,,212,94,76,8,8,16
+,Cities,,194,71,65,8,7,16
+,,Acton,2,0,0,0,0,1
+,,Andover,2,1,0,0,0,0
+,,Arlington2,9,1,0,1,0,0
+,,Barnstable,0,0,3,1,0,0
+,,Belmont,1,0,0,0,0,0
+,,Beverly,2,1,0,0,0,0
+,,Billerica,1,1,0,0,0,0
+,,Boston2,75,16,28,1,0,9
+,,Boxford,0,1,0,0,0,0
+,,Braintree2,6,1,1,0,1,0
+,,Cambridge2,16,6,4,0,0,0
+,,Chelmsford,0,0,0,0,1,0
+,,Chelsea,0,1,0,0,0,0
+,,Chicopee,1,0,0,0,0,0
+,,Cohasset,1,0,0,0,0,0
+,,Danvers,0,3,0,0,0,0
+,,Dartmouth,1,0,0,0,0,0
+,,Dennis,2,0,0,0,0,0
+,,Dudley,0,1,0,0,0,0
+,,Everett2,7,1,0,0,0,0
+,,Fitchburg,0,1,0,0,0,0
+,,Framingham,3,0,0,0,0,0
+,,Freetown,1,0,0,0,0,0
+,,Greenfield,0,0,0,0,1,0
+,,Haverhill2,3,1,2,0,0,0
+,,Holliston,0,0,1,0,0,0
+,,Hopkinton,0,2,1,0,0,0
+,,Lancaster,0,0,1,0,0,0
+,,Lawrence,0,0,1,0,0,0
+,,Lenox,0,0,1,0,0,0
+,,Lexington,1,1,0,0,0,0
+,,Lowell,0,1,1,0,0,0
+,,Lynn2,5,0,2,0,0,1
+,,Malden,1,0,2,0,0,0
+,,Manchester-by-the-Sea,0,0,0,1,0,0
+,,Mansfield,1,0,0,0,0,0
+,,Mattapoisett,1,0,0,0,0,0
+,,Medford,3,0,0,0,0,0
+,,Methuen2,2,1,0,0,0,0
+,,Milford,1,0,0,0,0,0
+,,Millbury,0,1,0,0,0,0
+,,Milton,1,0,1,0,0,0
+,,Nahant,1,0,1,0,0,0
+,,Newburyport,1,0,0,0,0,0
+,,Newton2,7,16,0,0,0,1
+,,Northampton2,2,1,1,0,0,0
+,,Pepperell,0,1,0,0,0,0
+,,Pittsfield,1,0,0,0,0,0
+,,Provincetown,0,0,1,0,0,0
+,,Quincy,3,0,1,0,1,0
+,,Randolph,3,0,0,0,0,0
+,,Salem,1,1,3,0,0,0
+,,Saugus,1,0,0,0,0,0
+,,Sharon,0,0,0,0,1,0
+,,Shelburne,0,0,0,1,0,0
+,,Somerville,6,3,1,1,0,0
+,,Southbridge,1,0,0,0,0,0
+,,Springfield,7,0,3,0,0,0
+,,Stoughton,0,1,0,0,0,0
+,,Sturbridge,0,0,0,1,0,0
+,,Sudbury,0,1,0,0,0,0
+,,Swampscott,0,3,0,0,0,0
+,,Taunton,3,0,1,0,1,0
+,,Topsfield,1,0,0,0,0,0
+,,Waltham,1,0,1,1,0,3
+,,Watertown2,0,2,2,0,0,0
+,,Westfield,0,0,1,0,0,0
+,,West Tisbury,0,0,0,0,1,0
+,,Williamstown,1,0,0,0,0,0
+,,Worcester,5,0,0,0,0,1
+,Universities and Colleges,,14,22,10,0,1,0
+,,Boston University2,5,11,4,0,1,0
+,,Brandeis University,0,1,0,0,0,0
+,,Bridgewater State University,0,0,1,0,0,0
+,,Bristol Community College,1,0,0,0,0,0
+,,Clark University,0,3,0,0,0,0
+,,Hampshire College,1,0,0,0,0,0
+,,Massachusetts Institute of Technology,0,1,0,0,0,0
+,,Northeastern University,0,1,0,0,0,0
+,,Salem State University,0,0,3,0,0,0
+,,"Tufts University, Suffolk3",0,1,0,0,0,0
+,,University of Massachusetts:,,,,,,
+,,Amherst2,6,4,2,0,0,0
+,,"Medical Center, Worcester",1,0,0,0,0,0
+,Other Agencies,,4,1,1,0,0,0
+,,Massachusetts Bay Transportation Authority:,,,,,,
+,,Middlesex County,1,0,0,0,0,0
+,,Suffolk County,3,1,1,0,0,0
+Michigan,Total,,282,47,59,6,5,0
+,Cities,,209,41,44,4,1,0
+,,Albion,2,1,0,0,0,0
+,,Allegan,0,0,1,0,0,0
+,,Ann Arbor,0,1,0,0,0,0
+,,Auburn Hills,1,0,0,0,0,0
+,,Battle Creek,3,0,0,0,0,0
+,,Belleville,1,0,0,0,0,0
+,,Benton Harbor,1,0,0,0,0,0
+,,Benton Township,2,0,0,0,0,0
+,,Berkley,1,0,0,0,0,0
+,,Big Rapids,1,0,0,0,0,0
+,,Birmingham,0,1,0,0,0,0
+,,Blackman Township,3,0,0,0,0,0
+,,Bloomfield Hills,1,1,0,0,0,0
+,,Bloomfield Township,1,1,0,0,0,0
+,,Buena Vista Township,2,0,0,0,0,0
+,,Burton,1,0,0,0,0,0
+,,Cadillac,1,0,0,0,0,0
+,,Caro,1,0,0,0,0,0
+,,Chesterfield Township,1,0,0,0,0,0
+,,Clawson,2,0,0,0,0,0
+,,Clinton Township,1,0,0,0,0,0
+,,Clio,1,0,0,0,0,0
+,,Coldwater,1,0,0,0,0,0
+,,Commerce Township,1,0,0,0,0,0
+,,Dearborn,7,4,3,0,0,0
+,,Dearborn Heights,1,1,0,0,0,0
+,,Detroit,16,1,13,2,0,0
+,,East Lansing,2,1,0,0,0,0
+,,Eastpointe,3,0,0,0,0,0
+,,Eaton Rapids,1,0,0,0,0,0
+,,Escanaba,1,0,0,0,1,0
+,,Evart,1,0,0,0,0,0
+,,Farmington,0,0,1,0,0,0
+,,Ferndale,2,0,0,0,0,0
+,,Flint,14,1,1,0,0,0
+,,Flushing,0,0,1,0,0,0
+,,Forsyth Township,1,0,0,0,0,0
+,,Fruitport Township,1,0,0,0,0,0
+,,Galesburg,2,0,0,0,0,0
+,,Garden City,2,1,0,0,0,0
+,,Gaylord,1,0,0,0,0,0
+,,Genesee Township,0,0,1,0,0,0
+,,Grand Rapids,2,0,0,0,0,0
+,,Grandville,0,1,0,0,0,0
+,,Grant,3,0,0,0,0,0
+,,Grosse Pointe Park,1,0,1,0,0,0
+,,Grosse Pointe Woods,1,0,0,0,0,0
+,,Hampton Township,1,0,0,0,0,0
+,,Hamtramck,3,2,0,0,0,0
+,,Harper Woods,1,0,0,0,0,0
+,,Hart,1,0,0,0,0,0
+,,Hastings,1,0,0,0,0,0
+,,Highland Park,5,1,1,0,0,0
+,,Houghton,2,0,0,0,0,0
+,,Huntington Woods,0,1,0,0,0,0
+,,Huron Township,1,0,0,0,0,0
+,,Independence Township,2,0,0,0,0,0
+,,Inkster,3,2,1,0,0,0
+,,Ishpeming,2,0,0,0,0,0
+,,Kalamazoo,1,0,0,0,0,0
+,,Lansing,1,1,0,0,0,0
+,,Lapeer,1,0,1,0,0,0
+,,Lawton,2,0,0,0,0,0
+,,Leslie,1,0,0,0,0,0
+,,Lincoln Park,1,0,0,0,0,0
+,,Lincoln Township,2,0,0,0,0,0
+,,Livonia,3,1,0,0,0,0
+,,Ludington,3,0,0,0,0,0
+,,Mackinac Island,0,0,1,0,0,0
+,,Marysville,0,0,1,0,0,0
+,,Mason,1,0,0,0,0,0
+,,Melvindale,2,0,0,0,0,0
+,,Meridian Township,4,1,1,0,0,0
+,,Monroe,2,0,0,0,0,0
+,,Montrose Township,0,1,1,0,0,0
+,,Mount Pleasant,1,0,0,0,0,0
+,,Muskegon,0,1,1,0,0,0
+,,Muskegon Township,0,0,1,0,0,0
+,,Niles,1,1,0,0,0,0
+,,Norton Shores,3,0,0,0,0,0
+,,Ontwa Township-Edwardsburg,0,0,1,0,0,0
+,,Owosso,1,0,0,0,0,0
+,,Oxford Township,1,0,0,0,0,0
+,,Pittsfield Township,1,1,1,0,0,0
+,,Plymouth,0,0,1,0,0,0
+,,Plymouth Township,0,0,1,0,0,0
+,,Pontiac,2,0,0,0,0,0
+,,Portage,1,0,0,0,0,0
+,,Port Huron,0,0,1,0,0,0
+,,Redford Township,1,1,0,0,0,0
+,,Richland,1,0,0,0,0,0
+,,River Rouge,1,0,0,0,0,0
+,,Rochester Hills,2,0,0,0,0,0
+,,Romulus,4,0,0,0,0,0
+,,Roseville,3,0,0,0,0,0
+,,Royal Oak,1,0,0,0,0,0
+,,Saginaw,3,1,1,0,0,0
+,,Saginaw Township,2,0,0,0,0,0
+,,Saline,1,0,0,0,0,0
+,,Sault Ste. Marie,0,0,2,0,0,0
+,,Shelby Township,3,0,1,0,0,0
+,,Southfield,1,1,1,0,0,0
+,,Southgate,3,0,1,0,0,0
+,,South Lyon,2,0,0,0,0,0
+,,St. Charles,1,1,0,0,0,0
+,,St. Joseph Township,1,0,0,0,0,0
+,,Sturgis,1,0,0,0,0,0
+,,Taylor,3,0,0,0,0,0
+,,Tittabawassee Township,1,0,0,0,0,0
+,,Traverse City,4,3,0,0,0,0
+,,Troy,7,0,0,0,0,0
+,,Van Buren Township,2,0,2,0,0,0
+,,Warren,7,1,0,2,0,0
+,,Waterford Township,1,0,0,0,0,0
+,,West Bloomfield Township,5,4,0,0,0,0
+,,Wyoming,0,1,0,0,0,0
+,Universities and Colleges,,16,4,3,0,0,0
+,,Eastern Michigan University,4,2,0,0,0,0
+,,Grand Valley State University,0,0,1,0,0,0
+,,Michigan State University,2,1,1,0,0,0
+,,Mott Community College,1,0,0,0,0,0
+,,Schoolcraft College,1,0,0,0,0,0
+,,University of Michigan:,,,,,,
+,,Ann Arbor,6,1,1,0,0,0
+,,Flint,1,0,0,0,0,0
+,,Western Michigan University,1,0,0,0,0,0
+,Metropolitan Counties,,24,0,8,1,1,0
+,,Barry,2,0,0,0,0,0
+,,Calhoun,1,0,1,0,0,0
+,,Eaton,1,0,0,0,0,0
+,,Genesee,1,0,0,0,0,0
+,,Ingham,2,0,0,0,0,0
+,,Jackson,3,0,0,0,0,0
+,,Kent,1,0,1,0,0,0
+,,Lapeer,2,0,1,0,0,0
+,,Livingston,0,0,0,1,1,0
+,,Macomb,1,0,0,0,0,0
+,,Monroe,3,0,0,0,0,0
+,,Montcalm,1,0,1,0,0,0
+,,Muskegon,1,0,0,0,0,0
+,,Oakland,0,0,2,0,0,0
+,,Saginaw,2,0,0,0,0,0
+,,St. Clair,0,0,1,0,0,0
+,,Van Buren,1,0,1,0,0,0
+,,Washtenaw,2,0,0,0,0,0
+,Nonmetropolitan Counties,,18,1,2,1,1,0
+,,Benzie,1,0,0,0,0,0
+,,Clare,1,0,0,0,0,0
+,,Emmet,1,0,0,0,0,0
+,,Gratiot,2,0,0,0,0,0
+,,Hillsdale,1,0,0,0,0,0
+,,Huron,1,0,0,0,0,0
+,,Ionia,1,0,0,0,0,0
+,,Luce,0,0,0,1,0,0
+,,Marquette,1,0,0,0,0,0
+,,Mason,1,0,0,0,0,0
+,,Mecosta,2,0,0,0,0,0
+,,Menominee,3,0,0,0,0,0
+,,Oceana,1,0,1,0,0,0
+,,Sanilac,1,0,0,0,0,0
+,,Tuscola,1,1,1,0,1,0
+,State Police Agencies,,14,1,2,0,2,0
+,,State Police:,,,,,,
+,,Ingham County,2,0,0,0,0,0
+,,Isabella County,3,0,2,0,0,0
+,,Jackson County,1,0,0,0,0,0
+,,Kent County,3,0,0,0,0,0
+,,Livingston County,0,1,0,0,1,0
+,,Mecosta County,1,0,0,0,0,0
+,,Muskegon County,0,0,0,0,1,0
+,,Oceana County,4,0,0,0,0,0
+,Other Agencies,,1,0,0,0,0,0
+,,Gerald R. Ford International Airport,1,0,0,0,0,0
+Minnesota,Total,,77,30,15,0,0,0
+,Cities,,71,28,15,0,0,0
+,,Blaine,2,0,0,0,0,0
+,,Bloomington,1,0,0,0,0,0
+,,Brooklyn Center,1,0,0,0,0,0
+,,Brooklyn Park,8,1,1,0,0,0
+,,Cottage Grove,2,0,0,0,0,0
+,,Crystal,2,0,0,0,0,0
+,,Eagan,2,0,0,0,0,0
+,,Inver Grove Heights2,7,0,1,0,0,0
+,,Little Falls,1,0,0,0,0,0
+,,Mankato,3,0,2,0,0,0
+,,Maplewood,2,0,0,0,0,0
+,,Minneapolis,20,13,5,0,0,0
+,,Minnetonka,0,2,0,0,0,0
+,,Moorhead,0,0,1,0,0,0
+,,New Hope,1,0,0,0,0,0
+,,Oakdale2,1,1,0,0,0,0
+,,Orono,0,1,0,0,0,0
+,,Plymouth,4,1,1,0,0,0
+,,Roseville2,1,1,1,0,0,0
+,,Sauk Centre,0,1,0,0,0,0
+,,Savage,0,1,0,0,0,0
+,,South St. Paul,1,0,0,0,0,0
+,,Spring Lake Park,1,0,0,0,0,0
+,,St. Cloud,3,1,1,0,0,0
+,,St. Louis Park,2,3,0,0,0,0
+,,St. Paul,5,2,2,0,0,0
+,,Wayzata,1,0,0,0,0,0
+,Universities and Colleges,,0,1,0,0,0,0
+,,"University of Minnesota, Twin Cities",0,1,0,0,0,0
+,Metropolitan Counties,,5,0,0,0,0,0
+,,Carver,1,0,0,0,0,0
+,,Mille Lacs,1,0,0,0,0,0
+,,Ramsey,2,0,0,0,0,0
+,,Wright,1,0,0,0,0,0
+,Nonmetropolitan Counties,,1,0,0,0,0,0
+,,Crow Wing,1,0,0,0,0,0
+,Other Agencies,,0,1,0,0,0,0
+,,Minneapolis-St. Paul International Airport,0,1,0,0,0,0
+Mississippi,Total,,4,1,2,0,0,0
+,Cities,,3,1,1,0,0,0
+,,Biloxi,0,0,1,0,0,0
+,,Olive Branch,3,1,0,0,0,0
+,Metropolitan Counties,,0,0,1,0,0,0
+,,DeSoto,0,0,1,0,0,0
+,Nonmetropolitan Counties,,1,0,0,0,0,0
+,,Stone,1,0,0,0,0,0
+Missouri,Total,,65,13,10,0,1,0
+,Cities,,62,11,10,0,1,0
+,,Battlefield,1,0,0,0,0,0
+,,Blue Springs,1,0,0,0,0,0
+,,Bolivar,0,1,0,0,0,0
+,,Branson,1,0,0,0,0,0
+,,Bridgeton,0,0,1,0,0,0
+,,Cameron,1,0,0,0,0,0
+,,Chesterfield,1,1,0,0,0,0
+,,Clayton,1,0,0,0,0,0
+,,Columbia,5,0,2,0,0,0
+,,Gladstone,1,0,0,0,0,0
+,,Independence,1,0,1,0,0,0
+,,Kansas City,33,6,4,0,0,0
+,,Lee's Summit,1,0,0,0,1,0
+,,Marionville,1,0,0,0,0,0
+,,North Kansas City,1,0,0,0,0,0
+,,Rolla,2,0,0,0,0,0
+,,St. Charles,1,0,0,0,0,0
+,,St. Joseph,0,0,1,0,0,0
+,,St. Louis,8,1,0,0,0,0
+,,St. Peters2,1,2,1,0,0,0
+,,University City,1,0,0,0,0,0
+,Universities and Colleges,,2,1,0,0,0,0
+,,University of Missouri:,,,,,,
+,,Kansas City,2,0,0,0,0,0
+,,St. Louis,0,1,0,0,0,0
+,Metropolitan Counties,,1,1,0,0,0,0
+,,St. Louis County Police Department,1,1,0,0,0,0
+Montana,Total,,10,5,4,0,1,0
+,Cities,,4,4,2,0,1,0
+,,Billings,2,1,1,0,0,0
+,,Columbia Falls,0,0,0,0,1,0
+,,Conrad,1,0,0,0,0,0
+,,Havre,1,0,0,0,0,0
+,,Helena,0,3,0,0,0,0
+,,Whitefish,0,0,1,0,0,0
+,Nonmetropolitan Counties,,6,1,2,0,0,0
+,,Big Horn,2,0,2,0,0,0
+,,Broadwater,1,0,0,0,0,0
+,,Lewis and Clark,3,0,0,0,0,0
+,,Richland,0,1,0,0,0,0
+Nebraska,Total,,23,4,3,0,1,0
+,Cities,,23,4,3,0,1,0
+,,Crete,2,0,0,0,0,0
+,,Grand Island,2,0,0,0,0,0
+,,Kearney,1,0,0,0,0,0
+,,Lincoln,13,3,2,0,1,0
+,,Norfolk,1,0,0,0,0,0
+,,Omaha,4,1,0,0,0,0
+,,Papillion,0,0,1,0,0,0
+Nevada,Total,,31,4,6,0,0,1
+,Cities,,31,4,6,0,0,1
+,,Henderson,9,1,1,0,0,0
+,,Las Vegas Metropolitan Police Department2,19,1,5,0,0,1
+,,North Las Vegas,3,1,0,0,0,0
+,,Reno,0,1,0,0,0,0
+New Hampshire,Total,,15,6,5,2,0,0
+,Cities,,15,6,4,2,0,0
+,,Belmont,1,0,0,0,0,0
+,,Boscawen,0,0,1,0,0,0
+,,Bow,1,0,0,0,0,0
+,,Brookline,0,1,0,0,0,0
+,,Claremont,1,0,0,0,0,0
+,,Concord,1,0,1,0,0,0
+,,Derry,1,0,0,0,0,0
+,,Dover,0,0,0,1,0,0
+,,Durham,0,1,0,0,0,0
+,,Exeter,2,1,0,0,0,0
+,,Farmington,2,0,1,0,0,0
+,,Hillsborough,1,0,0,0,0,0
+,,Keene,1,2,0,0,0,0
+,,Laconia,1,1,0,1,0,0
+,,Manchester,0,0,1,0,0,0
+,,Pembroke,1,0,0,0,0,0
+,,Sandown,1,0,0,0,0,0
+,,Troy,1,0,0,0,0,0
+,Universities and Colleges,,0,0,1,0,0,0
+,,University of New Hampshire,0,0,1,0,0,0
+New Jersey,Total,,137,110,34,1,0,0
+,Cities,,130,110,33,1,0,0
+,,Aberdeen Township,1,1,0,0,0,0
+,,Allendale,0,1,0,0,0,0
+,,Atlantic City,1,0,0,0,0,0
+,,Bergenfield,0,1,0,0,0,0
+,,Blairstown Township,1,1,0,0,0,0
+,,Bloomfield,1,0,0,0,0,0
+,,Brick Township,0,1,1,0,0,0
+,,Cinnaminson Township,1,0,0,0,0,0
+,,Colts Neck Township,0,0,1,0,0,0
+,,Cresskill,0,1,0,0,0,0
+,,Dunellen,0,1,0,0,0,0
+,,East Brunswick Township,6,2,1,0,0,0
+,,East Hanover Township,1,0,0,0,0,0
+,,East Orange,1,0,0,0,0,0
+,,East Rutherford,0,1,0,0,0,0
+,,East Windsor Township,2,0,0,0,0,0
+,,Edgewater,0,1,0,0,0,0
+,,Edison Township,2,1,0,0,0,0
+,,Evesham Township,4,1,1,0,0,0
+,,Ewing Township,0,1,0,0,0,0
+,,Florence Township,0,0,1,0,0,0
+,,Fort Lee,1,1,1,0,0,0
+,,Freehold Borough,2,0,0,0,0,0
+,,Freehold Township,2,0,0,0,0,0
+,,Galloway Township,0,1,0,0,0,0
+,,Glassboro,1,1,1,0,0,0
+,,Hackensack,2,2,1,0,0,0
+,,"Hamilton Township, Mercer County",0,2,0,0,0,0
+,,Hammonton,0,1,0,0,0,0
+,,Hanover Township,1,0,0,0,0,0
+,,Harrison Township,0,1,1,0,0,0
+,,Highland Park,2,1,0,0,0,0
+,,Highlands,1,0,0,0,0,0
+,,Hillsborough Township,1,0,0,0,0,0
+,,Hoboken,2,0,1,0,0,0
+,,Holmdel Township,0,3,0,0,0,0
+,,Hopewell Township,0,1,0,0,0,0
+,,Howell Township,4,6,1,0,0,0
+,,Jackson Township,1,1,0,0,0,0
+,,Jersey City,3,1,0,0,0,0
+,,Keansburg,5,0,0,0,0,0
+,,Lacey Township,0,1,0,0,0,0
+,,Lakewood Township,3,14,0,0,0,0
+,,Lindenwold,0,1,0,0,0,0
+,,Linwood,0,1,0,0,0,0
+,,Little Falls Township,2,0,1,0,0,0
+,,Livingston Township,1,1,0,0,0,0
+,,Lodi,0,1,0,0,0,0
+,,Long Branch,2,1,0,0,0,0
+,,Madison,0,1,0,0,0,0
+,,Magnolia,1,1,0,0,0,0
+,,Manalapan Township,0,3,1,0,0,0
+,,Manasquan,1,0,0,0,0,0
+,,Manchester Township,1,0,0,0,0,0
+,,Medford Township,2,1,0,0,0,0
+,,Metuchen,0,1,0,0,0,0
+,,Middletown Township,1,0,0,0,0,0
+,,Monmouth Beach,1,0,0,1,0,0
+,,Montclair,2,2,2,0,0,0
+,,Montville Township,1,0,0,0,0,0
+,,Moonachie,1,0,0,0,0,0
+,,Moorestown Township,0,1,0,0,0,0
+,,Mount Arlington,1,0,0,0,0,0
+,,Mount Laurel Township,0,2,0,0,0,0
+,,Mount Olive Township,1,0,0,0,0,0
+,,Neptune Township,8,0,4,0,0,0
+,,Newark,0,2,1,0,0,0
+,,New Brunswick,5,2,2,0,0,0
+,,New Providence,0,1,0,0,0,0
+,,Newton,0,1,0,0,0,0
+,,North Brunswick Township,0,1,0,0,0,0
+,,Northfield,1,1,0,0,0,0
+,,North Haledon,1,0,0,0,0,0
+,,Nutley Township,1,0,0,0,0,0
+,,"Ocean Township, Monmouth County",3,3,3,0,0,0
+,,Paramus,0,1,0,0,0,0
+,,Passaic,1,0,0,0,0,0
+,,Pemberton Township,3,0,0,0,0,0
+,,Pequannock Township,1,0,0,0,0,0
+,,Piscataway Township,0,1,0,0,0,0
+,,Plainsboro Township,0,1,0,0,0,0
+,,Point Pleasant Beach,0,1,0,0,0,0
+,,Pompton Lakes,1,0,0,0,0,0
+,,Princeton,1,2,1,0,0,0
+,,Randolph Township,0,2,0,0,0,0
+,,Raritan Township,0,0,1,0,0,0
+,,Readington Township,1,0,0,0,0,0
+,,Robbinsville Township,0,1,0,0,0,0
+,,Rockaway Township,0,1,0,0,0,0
+,,Saddle Brook Township,0,1,0,0,0,0
+,,Scotch Plains Township,1,0,0,0,0,0
+,,Sea Isle City,1,0,0,0,0,0
+,,Secaucus,2,1,1,0,0,0
+,,Somerville,0,0,1,0,0,0
+,,South Brunswick Township,3,11,1,0,0,0
+,,South Orange,2,0,1,0,0,0
+,,South River,0,1,0,0,0,0
+,,Spotswood,1,0,0,0,0,0
+,,Toms River Township,0,2,0,0,0,0
+,,Trenton,1,0,0,0,0,0
+,,Union Township,0,1,0,0,0,0
+,,Vineland,2,2,0,0,0,0
+,,Voorhees Township,2,0,0,0,0,0
+,,Washington,1,0,0,0,0,0
+,,"Washington Township, Gloucester County",1,0,1,0,0,0
+,,"Washington Township, Warren County",1,0,0,0,0,0
+,,West Deptford Township,1,0,0,0,0,0
+,,West Long Branch,1,1,1,0,0,0
+,,Winslow Township,1,0,0,0,0,0
+,,Woodbridge Township,0,1,0,0,0,0
+,,Woodbury,11,0,0,0,0,0
+,,Woolwich Township,1,0,0,0,0,0
+,State Police Agencies,,7,0,1,0,0,0
+,,State Police:,,,,,,
+,,Burlington County,1,0,1,0,0,0
+,,Cumberland County,1,0,0,0,0,0
+,,Salem County,1,0,0,0,0,0
+,,Sussex County,3,0,0,0,0,0
+,,Warren County ,1,0,0,0,0,0
+New Mexico,Total,,8,9,9,0,0,0
+,Cities,,8,9,9,0,0,0
+,,Albuquerque,7,9,9,0,0,0
+,,Los Lunas,1,0,0,0,0,0
+New York,Total,,155,311,99,1,5,24
+,Cities,,101,205,87,1,5,20
+,,Albany,1,0,0,0,0,0
+,,Amherst Town,2,0,0,0,0,0
+,,Auburn,0,1,0,0,0,0
+,,Bedford Town,0,1,0,0,0,0
+,,Binghamton,1,0,0,0,0,0
+,,Brighton Town,1,0,0,0,0,0
+,,Buffalo,5,0,1,0,0,1
+,,Cheektowaga Town,1,0,0,0,0,0
+,,Clarkstown Town,1,2,0,0,0,0
+,,Colonie Town,0,1,0,0,0,0
+,,Cooperstown Village,1,0,0,0,0,0
+,,Crawford Town,1,0,0,0,0,0
+,,Dobbs Ferry Village,0,1,0,0,0,0
+,,Elmira,1,0,0,0,0,0
+,,Glen Cove,0,0,1,0,0,0
+,,Hamburg Town,1,0,0,0,0,0
+,,Lake Placid Village,1,0,0,0,0,0
+,,Larchmont Village,0,2,0,0,0,0
+,,Middletown,0,1,0,0,0,0
+,,Monroe Village,0,3,0,0,0,0
+,,New Rochelle,1,4,0,0,0,0
+,,New York,74,183,79,1,5,19
+,,Niagara Falls,0,0,1,0,0,0
+,,North Tonawanda,2,0,0,0,0,0
+,,Norwich,1,0,0,0,0,0
+,,Peekskill,0,0,1,0,0,0
+,,Ramapo Town,1,1,1,0,0,0
+,,Rochester,1,0,1,0,0,0
+,,Saratoga Springs,0,1,0,0,0,0
+,,Schenectady,0,1,0,0,0,0
+,,Southampton Town,1,0,0,0,0,0
+,,Spring Valley Village,0,1,0,0,0,0
+,,Utica,0,0,1,0,0,0
+,,Wellsville Village,1,0,0,0,0,0
+,,Yonkers,2,2,1,0,0,0
+,Universities and Colleges,,15,10,4,0,0,3
+,,Cornell University,0,0,2,0,0,0
+,,State University of New York:,,,,,,
+,,Binghamton,1,0,1,0,0,0
+,,Buffalo,1,3,0,0,0,3
+,,Downstate Medical Center,0,0,1,0,0,0
+,,"State University of New York Agricultural and Technical College, Morrisville",4,2,0,0,0,0
+,,State University of New York College:,,,,,,
+,,Brockport,1,0,0,0,0,0
+,,Buffalo,1,1,0,0,0,0
+,,Geneseo,2,1,0,0,0,0
+,,New Paltz,3,0,0,0,0,0
+,,Plattsburgh,1,1,0,0,0,0
+,,Potsdam,1,0,0,0,0,0
+,,Purchase,0,2,0,0,0,0
+,Metropolitan Counties,,17,79,4,0,0,1
+,,Albany,1,0,0,0,0,0
+,,Monroe,1,1,0,0,0,0
+,,Nassau,7,45,0,0,0,0
+,,Oswego,1,0,0,0,0,0
+,,Saratoga,0,1,0,0,0,0
+,,Schoharie,0,1,0,0,0,0
+,,Suffolk County Police Department,7,30,4,0,0,1
+,,Westchester Public Safety,0,1,0,0,0,0
+,Nonmetropolitan Counties,,1,0,0,0,0,0
+,,Chenango,1,0,0,0,0,0
+,State Police Agencies,,10,5,4,0,0,0
+,,State Police:,,,,,,
+,,Albany County,1,1,1,0,0,0
+,,Chemung County,0,1,0,0,0,0
+,,Dutchess County,0,1,0,0,0,0
+,,Franklin County,0,0,1,0,0,0
+,,Jefferson County,1,0,1,0,0,0
+,,Montgomery County,1,0,0,0,0,0
+,,New York County,2,1,0,0,0,0
+,,Niagara County,0,0,1,0,0,0
+,,Orange County,0,1,0,0,0,0
+,,Oswego County,1,0,0,0,0,0
+,,Rockland County,1,0,0,0,0,0
+,,Schoharie County,1,0,0,0,0,0
+,,Wayne County,1,0,0,0,0,0
+,,Westchester County,1,0,0,0,0,0
+,Other Agencies,,11,12,0,0,0,0
+,,New York City Metropolitan Transportation Authority,11,11,0,0,0,0
+,,"State Park, Finger Lakes Region",0,1,0,0,0,0
+North Carolina,Total,,99,21,26,0,1,2
+,Cities,,75,17,24,0,0,1
+,,Apex,3,0,0,0,0,0
+,,Asheville,1,0,2,0,0,0
+,,Boone,0,0,1,0,0,0
+,,Charlotte-Mecklenburg,16,3,8,0,0,0
+,,Concord,0,1,0,0,0,0
+,,Durham,2,1,0,0,0,0
+,,Fayetteville,7,0,0,0,0,0
+,,Gastonia,3,0,0,0,0,0
+,,Greensboro,1,4,1,0,0,0
+,,Greenville,1,0,4,0,0,1
+,,Hickory,1,0,0,0,0,0
+,,High Point,5,0,0,0,0,0
+,,Huntersville,1,0,0,0,0,0
+,,Jacksonville,0,0,1,0,0,0
+,,Littleton,1,0,0,0,0,0
+,,Morganton,4,0,0,0,0,0
+,,Raleigh,15,7,6,0,0,0
+,,Roanoke Rapids2,4,0,0,0,0,0
+,,Rockingham,1,0,0,0,0,0
+,,Rocky Mount,1,0,0,0,0,0
+,,Salisbury,3,0,0,0,0,0
+,,Siler City,1,0,0,0,0,0
+,,Wilmington,4,1,0,0,0,0
+,,Wilson,0,0,1,0,0,0
+,Universities and Colleges,,4,1,2,0,0,1
+,,Duke University,0,1,0,0,0,0
+,,East Carolina University,1,0,0,0,0,0
+,,North Carolina Central University,0,0,1,0,0,1
+,,North Carolina School of the Arts,2,0,0,0,0,0
+,,"University of North Carolina, Greensboro",1,0,1,0,0,0
+,Metropolitan Counties,,15,2,0,0,0,0
+,,Forsyth,6,0,0,0,0,0
+,,Franklin,4,0,0,0,0,0
+,,Gaston County Police Department,1,0,0,0,0,0
+,,Iredell,2,0,0,0,0,0
+,,New Hanover,1,0,0,0,0,0
+,,Randolph,0,1,0,0,0,0
+,,Yadkin,1,1,0,0,0,0
+,Nonmetropolitan Counties,,4,1,0,0,1,0
+,,Jackson2,1,1,0,0,0,0
+,,Moore,0,0,0,0,1,0
+,,Sampson2,2,0,0,0,0,0
+,,Surry,1,0,0,0,0,0
+,Other Agencies,,1,0,0,0,0,0
+,,University of North Carolina Hospitals,1,0,0,0,0,0
+North Dakota,Total,,7,1,0,0,0,0
+,Cities,,5,1,0,0,0,0
+,,Bismarck,2,0,0,0,0,0
+,,Grand Forks,0,1,0,0,0,0
+,,Watford City,2,0,0,0,0,0
+,,Williston,1,0,0,0,0,0
+,Universities and Colleges,,1,0,0,0,0,0
+,,University of North Dakota,1,0,0,0,0,0
+,Nonmetropolitan Counties,,1,0,0,0,0,0
+,,Hettinger,1,0,0,0,0,0
+Ohio,Total,,336,35,60,9,1,1
+,Cities,,308,28,56,8,1,0
+,,Akron,3,0,1,0,0,0
+,,Albany,0,0,1,0,0,0
+,,Athens,1,0,0,0,0,0
+,,Aurora,2,0,1,0,0,0
+,,Barberton,1,0,0,0,0,0
+,,Beaver Township,0,0,1,0,0,0
+,,Bellbrook,0,1,0,1,0,0
+,,Bellefontaine,1,0,1,0,0,0
+,,Bexley,0,1,0,0,0,0
+,,Blue Ash,1,1,1,0,1,0
+,,Boardman2,1,0,0,0,0,0
+,,Canton,1,0,0,0,0,0
+,,Chillicothe,1,0,0,0,0,0
+,,Cincinnati,32,2,8,0,0,0
+,,Circleville,1,0,0,0,0,0
+,,Cleveland,8,0,0,0,0,0
+,,Colerain Township,4,0,0,0,0,0
+,,Columbus2,123,10,18,0,0,0
+,,Dayton,5,0,0,0,0,0
+,,Defiance,1,0,0,0,0,0
+,,Delhi Township,3,0,0,0,0,0
+,,East Palestine,2,0,0,0,0,0
+,,Elyria,2,0,1,0,0,0
+,,Fairborn,1,0,1,0,0,0
+,,Fairview Park,1,0,0,0,0,0
+,,Findlay,0,1,0,0,0,0
+,,Gahanna,2,1,0,0,0,0
+,,Garfield Heights,0,0,1,0,0,0
+,,Green Township,0,0,1,0,0,0
+,,Greenville,1,0,0,0,0,0
+,,Grove City,5,0,0,0,0,0
+,,Hamilton,9,0,0,0,0,0
+,,Heath,1,0,0,0,0,0
+,,Hilliard,2,0,1,0,0,0
+,,Huber Heights,3,0,1,1,0,0
+,,Independence,1,0,0,0,0,0
+,,"Jackson Township, Stark County",2,0,1,0,0,0
+,,Lockland,1,0,0,0,0,0
+,,Lyndhurst,1,1,1,0,0,0
+,,Mansfield,1,2,0,0,0,0
+,,Marietta,1,0,0,0,0,0
+,,Massillon,3,0,0,0,0,0
+,,Maumee,0,1,0,0,0,0
+,,Mayfield Heights,1,0,0,0,0,0
+,,Medina Township,1,0,0,0,0,0
+,,Miamisburg,0,1,0,0,0,0
+,,"Miami Township, Montgomery County",1,0,0,0,0,0
+,,Monroe,1,0,0,0,0,0
+,,Montgomery,1,0,0,0,0,0
+,,Montpelier,1,0,0,0,0,0
+,,Montville Township,1,0,0,0,0,0
+,,Moraine,3,0,0,0,0,0
+,,Mount Healthy,1,0,0,0,0,0
+,,Napoleon,2,0,2,0,0,0
+,,New Franklin,1,0,0,0,0,0
+,,Newton Falls,1,0,0,0,0,0
+,,North College Hill,0,0,1,0,0,0
+,,Oberlin,0,1,0,0,0,0
+,,Parma,1,2,0,0,0,0
+,,Portsmouth,1,0,0,0,0,0
+,,Powell,1,0,0,0,0,0
+,,Reynoldsburg,1,0,0,0,0,0
+,,Salem,0,0,0,4,0,0
+,,Shelby,1,0,1,0,0,0
+,,Sidney,2,0,1,0,0,0
+,,South Euclid,1,0,0,0,0,0
+,,"Springfield Township, Hamilton County",0,0,1,0,0,0
+,,"Springfield Township, Summit County",1,0,1,0,0,0
+,,Steubenville,1,0,0,0,0,0
+,,Streetsboro,0,0,0,1,0,0
+,,Toledo,31,0,4,0,0,0
+,,Troy,0,0,2,0,0,0
+,,Upper Arlington,1,0,0,0,0,0
+,,Upper Sandusky,1,0,0,0,0,0
+,,Urbana,9,0,0,0,0,0
+,,Vienna Township,1,0,0,0,0,0
+,,Wadsworth,1,0,0,0,0,0
+,,Wapakoneta,2,1,0,0,0,0
+,,Warren,1,0,0,0,0,0
+,,West Chester Township,1,0,0,0,0,0
+,,West Jefferson,0,0,0,1,0,0
+,,Wilmington,1,1,0,0,0,0
+,,Wooster,1,0,0,0,0,0
+,,Xenia,1,0,0,0,0,0
+,,Yellow Springs,1,1,0,0,0,0
+,,Youngstown,2,0,1,0,0,0
+,,Zanesville,1,0,2,0,0,0
+,Universities and Colleges,,5,0,1,0,0,0
+,,Capital University,0,0,1,0,0,0
+,,Kent State University,1,0,0,0,0,0
+,,"Ohio State University, Columbus",2,0,0,0,0,0
+,,Otterbein University,1,0,0,0,0,0
+,,University of Akron,1,0,0,0,0,0
+,Metropolitan Counties,,13,4,3,1,0,1
+,,Butler,1,1,0,0,0,0
+,,Clark,0,1,1,0,0,0
+,,Clermont,0,1,0,0,0,0
+,,Delaware,1,0,0,0,0,0
+,,Geauga,1,0,0,0,0,0
+,,Greene,6,1,0,0,0,0
+,,Lawrence,1,0,0,0,0,0
+,,Lorain,0,0,0,0,0,1
+,,Montgomery,1,0,1,0,0,0
+,,Summit,1,0,0,0,0,0
+,,Trumbull,1,0,0,1,0,0
+,,Warren,0,0,1,0,0,0
+,Nonmetropolitan Counties,,7,2,0,0,0,0
+,,Ashland,1,0,0,0,0,0
+,,Ashtabula,1,0,0,0,0,0
+,,Champaign,1,0,0,0,0,0
+,,Fayette,0,1,0,0,0,0
+,,Gallia,1,0,0,0,0,0
+,,Highland,1,0,0,0,0,0
+,,Mercer,0,1,0,0,0,0
+,,Pike,1,0,0,0,0,0
+,,Ross,1,0,0,0,0,0
+,Other Agencies,,3,1,0,0,0,0
+,,Cleveland Metropolitan Park District,2,1,0,0,0,0
+,,Ohio Department of Natural Resources,1,0,0,0,0,0
+Oklahoma,Total,,20,5,5,3,0,0
+,Cities,,9,4,4,0,0,0
+,,Anadarko,1,0,0,0,0,0
+,,Blanchard,0,1,0,0,0,0
+,,Collinsville,2,0,0,0,0,0
+,,Cushing,1,1,0,0,0,0
+,,Heavener,0,0,1,0,0,0
+,,Norman,1,0,1,0,0,0
+,,Nowata,0,1,0,0,0,0
+,,Oklahoma City,3,0,0,0,0,0
+,,Perry,0,0,1,0,0,0
+,,Tulsa,0,1,0,0,0,0
+,,Union City,1,0,0,0,0,0
+,,Woodward,0,0,1,0,0,0
+,Metropolitan Counties,,6,1,0,0,0,0
+,,Lincoln,1,0,0,0,0,0
+,,Okmulgee,1,0,0,0,0,0
+,,Wagoner,4,1,0,0,0,0
+,Nonmetropolitan Counties,,5,0,1,3,0,0
+,,Craig,0,0,0,1,0,0
+,,Delaware,2,0,0,1,0,0
+,,Garvin,1,0,0,0,0,0
+,,Kingfisher,1,0,0,0,0,0
+,,Payne,0,0,0,1,0,0
+,,Seminole,0,0,1,0,0,0
+,,Woodward,1,0,0,0,0,0
+Oregon,Total,,61,23,17,2,0,1
+,Cities,,57,19,13,1,0,1
+,,Ashland,1,0,1,0,0,0
+,,Beaverton,2,0,0,0,0,0
+,,Coos Bay,0,1,0,0,0,0
+,,Cornelius,1,0,0,0,0,0
+,,Corvallis,1,1,0,0,0,0
+,,Eugene,27,5,4,1,0,1
+,,Gervais,0,0,1,0,0,0
+,,Gresham,4,1,1,0,0,0
+,,Hood River,0,1,0,0,0,0
+,,Lincoln City,0,3,0,0,0,0
+,,Medford,0,0,1,0,0,0
+,,Newberg-Dundee,1,0,0,0,0,0
+,,Oregon City,2,0,0,0,0,0
+,,Portland,5,3,2,0,0,0
+,,Salem,4,2,2,0,0,0
+,,Springfield,6,1,0,0,0,0
+,,Talent,1,0,0,0,0,0
+,,Tigard,2,1,0,0,0,0
+,,Tualatin,0,0,1,0,0,0
+,Metropolitan Counties,,1,1,1,0,0,0
+,,Jackson,0,1,0,0,0,0
+,,Lane,1,0,0,0,0,0
+,,Washington,0,0,1,0,0,0
+,Nonmetropolitan Counties,,3,3,3,1,0,0
+,,Crook,1,0,1,0,0,0
+,,Hood River,0,1,0,0,0,0
+,,Jefferson,0,0,1,0,0,0
+,,Morrow,1,1,0,0,0,0
+,,Umatilla,0,1,1,1,0,0
+,,Union,1,0,0,0,0,0
+Pennsylvania,Total,,40,9,11,1,0,0
+,Cities,,32,8,9,1,0,0
+,,"Abington Township, Montgomery County",1,1,0,0,0,0
+,,Camp Hill,1,0,0,0,0,0
+,,Carlisle,0,0,1,0,0,0
+,,Ferguson Township,1,0,0,0,0,0
+,,Hamburg,1,0,0,0,0,0
+,,Johnstown,1,0,0,0,0,0
+,,Lancaster,1,0,0,0,0,0
+,,Mechanicsburg,2,0,0,0,0,0
+,,Philadelphia,7,4,7,0,0,0
+,,Pittsburgh,11,2,1,0,0,0
+,,Reading,1,0,0,0,0,0
+,,Scranton,1,1,0,0,0,0
+,,State College,2,0,0,1,0,0
+,,"Washington Township, Franklin County",1,0,0,0,0,0
+,,Whitemarsh Township,1,0,0,0,0,0
+,Universities and Colleges,,4,0,2,0,0,0
+,,"Pennsylvania State University, University Park",4,0,2,0,0,0
+,Metropolitan Counties,,1,0,0,0,0,0
+,,Allegheny,1,0,0,0,0,0
+,State Police Agencies,,3,1,0,0,0,0
+,,State Police: ,,,,,,
+,,Delaware County,1,0,0,0,0,0
+,,Monroe County,0,1,0,0,0,0
+,,Skippack,2,0,0,0,0,0
+Rhode Island,Total,,2,6,3,1,0,0
+,Cities,,2,4,1,0,0,0
+,,Cranston,0,1,0,0,0,0
+,,Pawtucket,1,1,0,0,0,0
+,,Portsmouth,0,1,0,0,0,0
+,,Providence,0,0,1,0,0,0
+,,South Kingstown,0,1,0,0,0,0
+,,Tiverton,1,0,0,0,0,0
+,Universities and Colleges,,0,2,1,0,0,0
+,,Brown University,0,1,1,0,0,0
+,,University of Rhode Island,0,1,0,0,0,0
+,State Police Agencies,,0,0,1,1,0,0
+,,State Police: ,,,,,,
+,,Chepachet,0,0,0,1,0,0
+,,Lincoln,0,0,1,0,0,0
+South Carolina,Total,,18,1,3,1,0,0
+,Cities,,10,1,1,0,0,0
+,,Andrews,1,0,0,0,0,0
+,,Blackville,0,1,0,0,0,0
+,,Chester,1,0,0,0,0,0
+,,Cottageville,1,0,0,0,0,0
+,,Florence,0,0,1,0,0,0
+,,Folly Beach,2,0,0,0,0,0
+,,Greer,1,0,0,0,0,0
+,,Moncks Corner,1,0,0,0,0,0
+,,North Myrtle Beach,1,0,0,0,0,0
+,,Pageland,1,0,0,0,0,0
+,,Simpsonville,1,0,0,0,0,0
+,Universities and Colleges,,2,0,0,1,0,0
+,,Clemson University,1,0,0,0,0,0
+,,Coastal Carolina University,0,0,0,1,0,0
+,,Trident Technical College,1,0,0,0,0,0
+,Metropolitan Counties,,4,0,2,0,0,0
+,,Anderson,1,0,0,0,0,0
+,,Darlington,0,0,1,0,0,0
+,,Greenville,1,0,0,0,0,0
+,,Horry County Police Department,2,0,0,0,0,0
+,,Sumter,0,0,1,0,0,0
+,Nonmetropolitan Counties,,2,0,0,0,0,0
+,,Abbeville,1,0,0,0,0,0
+,,Georgetown,1,0,0,0,0,0
+South Dakota,Total,,6,2,5,3,0,2
+,Cities,,4,2,3,2,0,1
+,,Aberdeen,0,0,0,0,0,1
+,,Brandon,0,1,0,0,0,0
+,,Brookings,0,0,0,1,0,0
+,,Chamberlain,0,0,1,0,0,0
+,,Madison,0,0,1,0,0,0
+,,Rapid City,2,0,0,1,0,0
+,,Sioux Falls,2,1,1,0,0,0
+,Metropolitan Counties,,2,0,1,1,0,0
+,,Meade,1,0,0,0,0,0
+,,Minnehaha,1,0,1,0,0,0
+,,Union,0,0,0,1,0,0
+,Nonmetropolitan Counties,,0,0,1,0,0,1
+,,Hamlin,0,0,1,0,0,0
+,,Jerauld,0,0,0,0,0,1
+Tennessee,Total,,93,18,25,6,0,0
+,Cities,,50,12,20,3,0,0
+,,Alcoa,4,0,2,0,0,0
+,,Alexandria,2,0,0,0,0,0
+,,Bristol,1,0,0,0,0,0
+,,Chattanooga,1,2,0,0,0,0
+,,Clarksville,1,0,0,0,0,0
+,,Cleveland,4,0,0,0,0,0
+,,Coopertown,0,0,1,0,0,0
+,,Covington,0,1,0,1,0,0
+,,Cowan,0,0,0,1,0,0
+,,Dyersburg,1,0,0,0,0,0
+,,East Ridge,1,0,0,0,0,0
+,,Franklin,0,1,0,0,0,0
+,,Gallaway,2,0,0,0,0,0
+,,Greenbrier,1,0,0,0,0,0
+,,Hendersonville,1,0,0,0,0,0
+,,Humboldt,1,0,0,0,0,0
+,,Jackson,2,1,0,0,0,0
+,,Jamestown,7,0,0,0,0,0
+,,Jasper,0,0,1,0,0,0
+,,Johnson City,0,0,1,1,0,0
+,,Kingsport,1,0,0,0,0,0
+,,Knoxville,0,1,0,0,0,0
+,,Lebanon,2,1,0,0,0,0
+,,Lenoir City,1,0,0,0,0,0
+,,Livingston,1,0,0,0,0,0
+,,Memphis,1,1,7,0,0,0
+,,Milan,1,0,0,0,0,0
+,,Millington,1,0,0,0,0,0
+,,Morristown,1,0,0,0,0,0
+,,Murfreesboro2,2,0,1,0,0,0
+,,Nashville Metropolitan,5,2,5,0,0,0
+,,Newport,1,0,0,0,0,0
+,,Oak Ridge,0,0,1,0,0,0
+,,Pigeon Forge,2,1,0,0,0,0
+,,Portland,0,1,0,0,0,0
+,,Spring Hill,2,0,0,0,0,0
+,,White House,0,0,1,0,0,0
+,Universities and Colleges,,3,1,1,0,0,0
+,,Pellissippi State Community College,0,1,0,0,0,0
+,,Tennessee Technological University,2,0,0,0,0,0
+,,"University of Tennessee, Knoxville",0,0,1,0,0,0
+,,University of the South,1,0,0,0,0,0
+,Metropolitan Counties,,28,4,4,3,0,0
+,,Anderson,1,0,0,0,0,0
+,,Bradley,2,0,1,0,0,0
+,,Dickson,2,0,0,0,0,0
+,,Hamblen,1,0,0,0,0,0
+,,Hamilton,2,4,1,1,0,0
+,,Knox,1,0,0,0,0,0
+,,Montgomery,1,0,0,0,0,0
+,,Roane,0,0,1,0,0,0
+,,Rutherford,1,0,0,0,0,0
+,,Shelby,16,0,0,2,0,0
+,,Sullivan,1,0,1,0,0,0
+,Nonmetropolitan Counties,,1,1,0,0,0,0
+,,Lawrence,0,1,0,0,0,0
+,,Sevier,1,0,0,0,0,0
+,Other Agencies,,11,0,0,0,0,0
+,,Department of Safety,11,0,0,0,0,0
+Texas,Total,,104,23,37,5,1,8
+,Cities,,91,17,28,4,1,8
+,,Arlington,4,1,0,0,0,0
+,,Austin,10,2,6,0,0,1
+,,Beaumont,4,0,0,0,0,0
+,,Bedford,1,0,0,0,0,5
+,,Borger,1,0,0,0,0,0
+,,Burleson,1,0,0,0,0,0
+,,Cedar Hill,1,0,0,0,0,0
+,,Cedar Park,1,0,1,0,0,0
+,,Center,0,0,0,0,1,0
+,,College Station,0,1,0,0,0,0
+,,Converse,0,0,0,1,0,0
+,,Dallas,7,2,2,0,0,0
+,,Denison,0,0,1,0,0,0
+,,Denton,2,0,1,0,0,0
+,,El Paso,0,0,1,0,0,0
+,,Fort Worth,11,3,5,1,0,0
+,,Frankston,1,0,0,0,0,0
+,,Galveston,5,0,1,0,0,0
+,,Gilmer,1,0,0,0,0,0
+,,Grand Prairie,1,0,0,0,0,0
+,,Hedwig Village,0,1,0,0,0,0
+,,Houston,3,1,2,0,0,2
+,,League City,1,0,0,0,0,0
+,,Levelland,2,0,0,0,0,0
+,,Lewisville,2,0,0,0,0,0
+,,Livingston,1,0,0,0,0,0
+,,Longview,2,0,0,1,0,0
+,,McKinney,5,0,2,0,0,0
+,,Odessa,2,1,0,0,0,0
+,,Plano,1,0,0,0,0,0
+,,Pleasanton,1,0,0,0,0,0
+,,Reno,0,1,0,0,0,0
+,,Rockwall,1,0,0,0,0,0
+,,Round Rock,0,1,1,0,0,0
+,,San Angelo,0,0,1,0,0,0
+,,San Antonio,6,2,1,0,0,0
+,,San Marcos,0,0,1,0,0,0
+,,Seabrook,1,0,0,0,0,0
+,,Sealy,1,0,0,0,0,0
+,,Sugar Land,1,0,0,0,0,0
+,,Teague,1,0,0,0,0,0
+,,Temple,1,0,0,0,0,0
+,,Texas City,2,0,0,0,0,0
+,,Tomball,1,0,0,0,0,0
+,,Tyler,2,0,1,1,0,0
+,,Weslaco,1,0,1,0,0,0
+,,Wichita Falls,1,1,0,0,0,0
+,,Willis,1,0,0,0,0,0
+,Universities and Colleges,,3,3,3,0,0,0
+,,Amarillo College,1,0,0,0,0,0
+,,"Baylor University, Waco",1,0,0,0,0,0
+,,Southwestern University,0,0,2,0,0,0
+,,"Texas State Technical College, West Texas3",0,0,1,0,0,0
+,,"Texas Tech University, Lubbock",1,0,0,0,0,0
+,,Tyler Junior College,0,1,0,0,0,0
+,,"University of Texas, Dallas",0,2,0,0,0,0
+,Metropolitan Counties,,7,3,3,1,0,0
+,,Bexar,1,0,0,0,0,0
+,,Lubbock,1,0,0,0,0,0
+,,Parker,0,0,1,1,0,0
+,,Travis,3,2,2,0,0,0
+,,Williamson,2,1,0,0,0,0
+,Nonmetropolitan Counties,,2,0,1,0,0,0
+,,Brewster,0,0,1,0,0,0
+,,San Jacinto,1,0,0,0,0,0
+,,Zavala,1,0,0,0,0,0
+,Other Agencies,,1,0,2,0,0,0
+,,Dallas-Fort Worth International Airport,0,0,1,0,0,0
+,,"Hospital District, Dallas County",1,0,0,0,0,0
+,,"Independent School District, El Paso",0,0,1,0,0,0
+Utah,Total,,47,8,9,2,0,0
+,Cities,,31,6,7,1,0,0
+,,Bountiful,3,0,0,0,0,0
+,,Centerville,1,0,0,0,0,0
+,,Draper,0,1,0,0,0,0
+,,Farmington,0,1,0,0,0,0
+,,Grantsville,2,0,0,0,0,0
+,,Helper,1,0,0,0,0,0
+,,Hurricane,1,0,0,0,0,0
+,,Layton,1,0,0,0,0,0
+,,Lindon,1,0,0,0,0,0
+,,Moab,1,0,0,0,0,0
+,,North Ogden,2,0,0,0,0,0
+,,Ogden2,3,0,4,1,0,0
+,,Payson,1,0,1,0,0,0
+,,Pleasant View,1,0,0,0,0,0
+,,Roosevelt,0,0,1,0,0,0
+,,Salt Lake City,1,0,0,0,0,0
+,,Santa Clara/Ivins,0,1,0,0,0,0
+,,Saratoga Springs,0,2,0,0,0,0
+,,South Jordan,1,0,0,0,0,0
+,,South Ogden,1,0,0,0,0,0
+,,South Salt Lake,1,0,0,0,0,0
+,,St. George,2,0,0,0,0,0
+,,Tooele,2,0,1,0,0,0
+,,West Jordan,2,0,0,0,0,0
+,,West Valley,3,1,0,0,0,0
+,Universities and Colleges,,2,0,1,0,0,0
+,,Brigham Young University,2,0,0,0,0,0
+,,"Utah State University, Logan",0,0,1,0,0,0
+,Metropolitan Counties,,1,2,0,0,0,0
+,,Salt Lake County Unified Police Department,0,1,0,0,0,0
+,,Utah,1,0,0,0,0,0
+,,Washington,0,1,0,0,0,0
+,State Police Agencies,,10,0,0,0,0,0
+,,Utah Highway Patrol,10,0,0,0,0,0
+,Other Agencies,,3,0,1,1,0,0
+,,Utah Transit Authority,3,0,1,1,0,0
+Vermont,Total,,16,5,3,1,0,0
+,Cities,,15,3,3,1,0,0
+,,Barre,1,0,0,0,0,0
+,,Barre Town,1,0,0,0,0,0
+,,Brandon,1,0,0,0,0,0
+,,Burlington,2,1,2,0,0,0
+,,Chester,0,0,0,1,0,0
+,,Colchester,1,0,0,0,0,0
+,,Middlebury,0,1,0,0,0,0
+,,Milton,1,0,1,0,0,0
+,,Rutland,0,1,0,0,0,0
+,,Springfield,1,0,0,0,0,0
+,,St. Albans,2,0,0,0,0,0
+,,St. Johnsbury,4,0,0,0,0,0
+,,Williston,1,0,0,0,0,0
+,Universities and Colleges,,0,2,0,0,0,0
+,,University of Vermont,0,2,0,0,0,0
+,Nonmetropolitan Counties,,1,0,0,0,0,0
+,,Lamoille,1,0,0,0,0,0
+Virginia,Total,,76,21,22,3,0,0
+,Cities,,23,6,8,1,0,0
+,,Alexandria,0,0,2,0,0,0
+,,Chesapeake,2,1,0,1,0,0
+,,Clifton Forge,1,0,0,0,0,0
+,,Covington,0,1,0,0,0,0
+,,Front Royal,1,0,2,0,0,0
+,,Hampton,1,0,0,0,0,0
+,,Harrisonburg,3,1,0,0,0,0
+,,Herndon,0,1,0,0,0,0
+,,Manassas,1,0,0,0,0,0
+,,Newport News,3,0,1,0,0,0
+,,Norfolk,0,1,0,0,0,0
+,,Portsmouth,3,0,0,0,0,0
+,,Purcellville,1,0,0,0,0,0
+,,Radford,1,0,0,0,0,0
+,,Richmond,0,1,0,0,0,0
+,,Rocky Mount,1,0,0,0,0,0
+,,Virginia Beach,2,0,3,0,0,0
+,,Waynesboro,1,0,0,0,0,0
+,,Williamsburg,1,0,0,0,0,0
+,,Woodstock,1,0,0,0,0,0
+,Universities and Colleges,,6,1,3,0,0,0
+,,College of William and Mary,0,0,1,0,0,0
+,,Emory and Henry College,1,0,0,0,0,0
+,,George Mason University,0,1,0,0,0,0
+,,Hampton University,1,0,0,0,0,0
+,,Old Dominion University,2,0,0,0,0,0
+,,Radford University,1,0,0,0,0,0
+,,University of Virginia,0,0,1,0,0,0
+,,Virginia Commonwealth University,1,0,1,0,0,0
+,Metropolitan Counties,,42,12,7,0,0,0
+,,Albemarle County Police Department,3,0,1,0,0,0
+,,Amelia,1,0,0,0,0,0
+,,Arlington County Police Department,2,1,0,0,0,0
+,,Fairfax County Police Department,14,6,4,0,0,0
+,,Franklin,0,1,0,0,0,0
+,,Frederick,1,0,0,0,0,0
+,,Hanover,1,0,0,0,0,0
+,,Henrico County Police Department,0,1,0,0,0,0
+,,Loudoun,5,1,2,0,0,0
+,,Mathews,1,0,0,0,0,0
+,,Montgomery,0,1,0,0,0,0
+,,Powhatan,1,0,0,0,0,0
+,,Prince William County Police Department,5,1,0,0,0,0
+,,Spotsylvania,1,0,0,0,0,0
+,,Stafford,4,0,0,0,0,0
+,,Washington,2,0,0,0,0,0
+,,York,1,0,0,0,0,0
+,Nonmetropolitan Counties,,3,0,1,2,0,0
+,,Accomack,0,0,0,2,0,0
+,,Grayson,1,0,0,0,0,0
+,,Louisa,1,0,1,0,0,0
+,,Shenandoah,1,0,0,0,0,0
+,State Police Agencies,,2,2,3,0,0,0
+,,State Police:,,,,,,
+,,Chesapeake,1,0,0,0,0,0
+,,Fairfax County,0,1,1,0,0,0
+,,Goochland County,0,0,1,0,0,0
+,,Newport News,1,0,0,0,0,0
+,,Rockingham County,0,0,1,0,0,0
+,,Surry County,0,1,0,0,0,0
+Washington,Total,,239,61,70,2,3,14
+,Cities,,190,51,59,2,2,11
+,,Aberdeen,1,0,1,0,0,0
+,,Algona,1,0,0,0,0,0
+,,Arlington,1,0,0,0,0,0
+,,Auburn,4,1,0,0,0,0
+,,Bainbridge Island,0,0,1,0,0,0
+,,Battle Ground,1,0,0,0,0,0
+,,Bellevue,2,13,3,0,0,0
+,,Bellingham,7,0,1,0,0,0
+,,Bothell,1,0,0,0,0,0
+,,Brier,1,0,0,0,0,0
+,,Centralia,4,1,0,0,0,0
+,,Darrington,1,0,0,0,0,0
+,,Des Moines,1,0,0,0,0,0
+,,Edmonds,4,1,0,0,0,0
+,,Enumclaw,1,0,0,0,0,0
+,,Everett,4,1,0,0,0,0
+,,Federal Way,2,0,0,0,0,0
+,,Forks,1,0,0,0,1,0
+,,Granite Falls,0,0,1,0,0,0
+,,Kent,8,3,5,0,0,0
+,,Kettle Falls,1,0,0,0,0,0
+,,Kirkland,1,0,0,0,0,0
+,,Lake Forest Park,0,1,0,0,0,0
+,,Lake Stevens,2,0,0,0,0,0
+,,Lakewood,2,0,1,0,0,0
+,,Longview2,5,2,0,0,0,0
+,,Lynnwood,2,0,0,0,0,0
+,,Marysville,2,1,0,0,0,1
+,,Mill Creek,0,0,1,0,0,0
+,,Milton,1,0,0,0,0,0
+,,Mountlake Terrace,1,0,0,0,0,0
+,,Mount Vernon,0,0,0,0,0,1
+,,Mukilteo,0,1,0,0,0,0
+,,Oak Harbor,2,0,0,1,0,0
+,,Olympia,1,0,0,0,0,0
+,,Orting,3,0,0,0,0,0
+,,Pasco,1,0,0,0,0,0
+,,Port Angeles,4,0,1,0,0,0
+,,Port Townsend,0,1,0,0,0,0
+,,Pullman,0,1,1,0,0,0
+,,Puyallup,2,1,0,0,0,0
+,,Redmond2,2,5,0,0,0,0
+,,Renton,5,1,2,0,0,0
+,,Richland,2,0,0,0,0,0
+,,Sammamish,5,1,0,0,1,0
+,,Seattle,64,12,33,0,0,9
+,,Snohomish,1,0,0,0,0,0
+,,Spokane,6,1,1,0,0,0
+,,Spokane Valley,8,1,1,0,0,0
+,,Stanwood,1,0,0,0,0,0
+,,Tacoma,4,0,5,0,0,0
+,,Tenino,1,0,0,0,0,0
+,,Tukwila,1,0,0,0,0,0
+,,Vancouver,4,0,0,0,0,0
+,,Walla Walla,6,0,0,1,0,0
+,,White Salmon,2,0,0,0,0,0
+,,Woodinville,0,1,0,0,0,0
+,,Yakima,3,1,1,0,0,0
+,Universities and Colleges,,3,1,4,0,1,1
+,,Eastern Washington University,0,0,1,0,0,0
+,,Evergreen State College,0,0,1,0,0,1
+,,University of Washington,1,1,1,0,1,0
+,,"Washington State University, Pullman",1,0,0,0,0,0
+,,Western Washington University,1,0,1,0,0,0
+,Metropolitan Counties,,41,8,7,0,0,1
+,,Clark,1,0,0,0,0,0
+,,Cowlitz,2,1,2,0,0,0
+,,King,11,2,1,0,0,0
+,,Pierce,10,0,1,0,0,0
+,,Skagit,0,0,0,0,0,1
+,,Snohomish,4,2,0,0,0,0
+,,Spokane,1,0,0,0,0,0
+,,Walla Walla,0,1,0,0,0,0
+,,Whatcom2,8,2,3,0,0,0
+,,Yakima,4,0,0,0,0,0
+,Nonmetropolitan Counties,,3,1,0,0,0,1
+,,Grays Harbor,1,0,0,0,0,0
+,,Island,1,0,0,0,0,0
+,,Lewis,1,0,0,0,0,0
+,,Mason,0,1,0,0,0,0
+,,San Juan,0,0,0,0,0,1
+,Tribal Agencies,,1,0,0,0,0,0
+,,Lummi Tribal,1,0,0,0,0,0
+,Other Agencies,,1,0,0,0,0,0
+,,Port of Seattle,1,0,0,0,0,0
+West Virginia,Total,,30,1,7,3,0,0
+,Cities,,20,1,6,2,0,0
+,,Beckley,1,0,0,0,0,0
+,,Buckhannon,1,0,0,0,0,0
+,,Charleston,10,1,4,0,0,0
+,,Fairmont,0,0,0,1,0,0
+,,Fayetteville,2,0,0,0,0,0
+,,Huntington,0,0,1,1,0,0
+,,Moundsville,1,0,0,0,0,0
+,,Oak Hill,2,0,0,0,0,0
+,,Parkersburg,0,0,1,0,0,0
+,,Philippi,1,0,0,0,0,0
+,,Ranson,1,0,0,0,0,0
+,,Wheeling,1,0,0,0,0,0
+,Metropolitan Counties,,7,0,1,1,0,0
+,,Berkeley,1,0,0,0,0,0
+,,Brooke,1,0,0,0,0,0
+,,Cabell,1,0,0,0,0,0
+,,Hancock,2,0,0,0,0,0
+,,Jefferson,1,0,0,0,0,0
+,,Kanawha,1,0,1,1,0,0
+,Nonmetropolitan Counties,,3,0,0,0,0,0
+,,Mason,3,0,0,0,0,0
+Wisconsin,Total,,22,8,3,0,0,1
+,Cities,,18,7,3,0,0,1
+,,Appleton,1,0,0,0,0,0
+,,Cross Plains,0,0,1,0,0,0
+,,Fox Valley Metro,1,0,0,0,0,0
+,,Green Bay,1,0,0,0,0,0
+,,Hudson,0,0,1,0,0,0
+,,Janesville,1,0,0,0,0,0
+,,La Crosse,1,0,0,0,0,0
+,,Madison,8,7,0,0,0,0
+,,Manitowoc,1,0,0,0,0,0
+,,Milwaukee,0,0,1,0,0,1
+,,New Richmond,1,0,0,0,0,0
+,,Onalaska,1,0,0,0,0,0
+,,Osceola,1,0,0,0,0,0
+,,Stoughton,1,0,0,0,0,0
+,Metropolitan Counties,,3,1,0,0,0,0
+,,Fond du Lac,2,0,0,0,0,0
+,,Outagamie,1,0,0,0,0,0
+,,St. Croix,0,1,0,0,0,0
+,Nonmetropolitan Counties,,1,0,0,0,0,0
+,,Rusk,1,0,0,0,0,0
+Wyoming,Total,,3,0,0,0,0,0
+,Cities,,3,0,0,0,0,0
+,,Gillette,3,0,0,0,0,0
+,,,,,,,,
+,,,,,,,,
