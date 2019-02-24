@@ -1,0 +1,34 @@
+---
+title: "LGBT Hate Crimes"
+author: "Cory J. Cascalheira"
+date: "February 24, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+# LGBT Hate Crimes Across the U.S.
+___
+The U.S. Department of Justice Federal Bureau of Investigation (FBI) assembles hate crime statistics.
+
+```{r}
+library(tidyverse) # utility and visualization
+```
+
+```{r}
+theme_set(theme_minimal())
+```
+
+## LGBT Population Estimates
+___
+Gary Gates and Abigail Cooke of The Williams Institute at UCLA [tabulated data](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Census2010Snapshot-US-v2.pdf?r=1) from the 2010 U.S. Census on same-sex couples. Although these data exclude same-sex couples with concerns about confidentiality and LGBT individuals who are not in traditional monogamous relationships, the estimates unveil the concentration of queer populations across states.
+
+## Hate Crime Incidents
+___
+Hate crimes vary across states. The FBI [began tracking hate crimes](https://ucr.fbi.gov/hate-crime/2001) in response to the passage of the Hate Crime Statistics Act of 1990. Table 13, which shows hate crime incidents according to bias motivation by state and agency, became publicly available in 2006. Over a decade's worth of hate crimes against LGBT persons are aggregated.
+
+The [Uniform Crime Reporting Program](https://www.fbi.gov/services/cjis/ucr) (UCR) did not report hate crimes on the basis of gender and gender identity until 2013. Ethnicity and race were collapsed into a single motivation bias in 2015. The aggregated data treat these two social categories as a single variable from 2006 onwards.
+
+Since the reporting practices of agencies are not uniformly encoded, only the total incidents by state per year are presented.
