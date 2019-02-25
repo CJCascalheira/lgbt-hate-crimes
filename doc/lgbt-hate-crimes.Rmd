@@ -31,4 +31,8 @@ Hate crimes vary across states. The FBI [began tracking hate crimes](https://ucr
 
 The [Uniform Crime Reporting Program](https://www.fbi.gov/services/cjis/ucr) (UCR) did not report hate crimes on the basis of gender and gender identity until 2013. Ethnicity and race were collapsed into a single motivation bias in 2015. The aggregated data treat these two social categories as a single variable from 2006 onwards.
 
-Since the reporting practices of agencies are not uniformly encoded, only the total incidents by state per year are presented.
+Since the reporting practices of agencies are not uniformly encoded, only the total incidents by state per year are presented. Data were missing in several instances:
+
+1. there are no data on hate crimes in Hawaii, so an observation with zeros for all motivation biases was added for Hawaii, 2006 to 2017;
+2. Mississippi was not included in Table 13 for the years 2006, 2007, and 2015, so an observation with zeros for all motivation biases was added; and
+3. New Jersey was excluded from Table 13 in 2012, so an observation with zeros for all motivation biases was added.
