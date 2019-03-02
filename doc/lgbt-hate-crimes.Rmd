@@ -11,19 +11,17 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 # LGBT Hate Crimes Across the U.S.
 ___
-The U.S. Department of Justice Federal Bureau of Investigation (FBI) assembles hate crime statistics.
+The U.S. Department of Justice Federal Bureau of Investigation (FBI) assembles hate crime statistics. From 2006 to 2017, bias against lesbian, gay, bisexual, and transgender (LGBT) individuals motivated 14,768 hate crimes.
 
-```{r}
-library(tidyverse) # utility and visualization
-```
+Over this 11-year period, hatred based on sexual orientation provoked 18.1% of reported incidents.
 
-```{r}
-theme_set(theme_minimal())
-```
+It is estimated that only [3.5% of U.S. adults](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Gates-How-Many-People-LGBT-Apr-2011.pdf) identify as lesbian, gay, or bisexual.
 
 ## LGBT Population Estimates
 ___
 Gary Gates and Abigail Cooke of The Williams Institute at UCLA [tabulated data](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Census2010Snapshot-US-v2.pdf?r=1) from the 2010 U.S. Census on same-sex couples. Although these data exclude same-sex couples with concerns about confidentiality and LGBT individuals who are not in traditional monogamous relationships, the estimates unveil the concentration of queer populations across states.
+
+![Some text](../data/results/same-sex-couples-state-2010.png)
 
 ## Hate Crime Incidents
 ___
@@ -36,3 +34,4 @@ Since the reporting practices of agencies are not uniformly encoded, only the to
 1. there are no data on hate crimes in Hawaii, so an observation with zeros for all motivation biases was added for Hawaii, 2006 to 2017;
 2. Mississippi was not included in Table 13 for the years 2006, 2007, and 2015, so an observation with zeros for all motivation biases was added; and
 3. New Jersey was excluded from Table 13 in 2012, so an observation with zeros for all motivation biases was added.
+

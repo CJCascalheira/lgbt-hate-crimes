@@ -1782,7 +1782,7 @@ Virginia,2014,race,79
 Washington,2014,race,203
 West Virginia,2014,race,18
 Wisconsin,2014,race,33
-Wyoming,2014,race,NA
+Wyoming,2014,race,0
 Hawaii,2014,race,0
 Alabama,2014,religion,1
 Alaska,2014,religion,0
@@ -1833,7 +1833,7 @@ Virginia,2014,religion,16
 Washington,2014,religion,50
 West Virginia,2014,religion,2
 Wisconsin,2014,religion,6
-Wyoming,2014,religion,NA
+Wyoming,2014,religion,0
 Hawaii,2014,religion,0
 Alabama,2014,sexual_orientation,0
 Alaska,2014,sexual_orientation,1
@@ -1884,7 +1884,7 @@ Virginia,2014,sexual_orientation,22
 Washington,2014,sexual_orientation,43
 West Virginia,2014,sexual_orientation,4
 Wisconsin,2014,sexual_orientation,9
-Wyoming,2014,sexual_orientation,NA
+Wyoming,2014,sexual_orientation,0
 Hawaii,2014,sexual_orientation,0
 Alabama,2014,disability,0
 Alaska,2014,disability,0
@@ -1935,7 +1935,7 @@ Virginia,2014,disability,1
 Washington,2014,disability,3
 West Virginia,2014,disability,2
 Wisconsin,2014,disability,3
-Wyoming,2014,disability,NA
+Wyoming,2014,disability,0
 Hawaii,2014,disability,0
 Alabama,2014,gender,0
 Alaska,2014,gender,0
@@ -1986,7 +1986,7 @@ Virginia,2014,gender,0
 Washington,2014,gender,8
 West Virginia,2014,gender,0
 Wisconsin,2014,gender,0
-Wyoming,2014,gender,NA
+Wyoming,2014,gender,0
 Hawaii,2014,gender,0
 Alabama,2014,gender_identity,0
 Alaska,2014,gender_identity,0
@@ -2037,7 +2037,7 @@ Virginia,2014,gender_identity,0
 Washington,2014,gender_identity,1
 West Virginia,2014,gender_identity,0
 Wisconsin,2014,gender_identity,0
-Wyoming,2014,gender_identity,NA
+Wyoming,2014,gender_identity,0
 Hawaii,2014,gender_identity,0
 Alabama,2015,race,8
 Alaska,2015,race,7

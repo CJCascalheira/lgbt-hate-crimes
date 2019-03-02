@@ -198,5 +198,8 @@ df2_list2 <- lapply(df2_list, function (df) {
 # Melt into single data frame
 hate_crimes <- bind_rows(df2_list2)
 
+# Check for NA
+which(is.na(hate_crimes$incidents))
+
 # Save data frame as CSV
 write_csv(hate_crimes, path = "data/hate_crimes.csv")
