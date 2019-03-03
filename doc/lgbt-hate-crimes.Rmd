@@ -1,7 +1,7 @@
 ---
 title: "LGBT Hate Crimes"
 author: "Cory J. Cascalheira"
-date: "February 24, 2019"
+date: "March 03, 2019"
 output: html_document
 ---
 
@@ -17,15 +17,43 @@ Over this 11-year period, hatred based on sexual orientation provoked 18.1% of r
 
 It is estimated that only [3.5% of U.S. adults](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Gates-How-Many-People-LGBT-Apr-2011.pdf) identify as lesbian, gay, or bisexual.
 
-## LGBT Population Estimates
+![**Figure 1**. Despite comprising 3.5% of the adult population in the United States, lesbian, gay, and bisexual individuals are the victims of 18.1% of all hate crimes.](../data/results/lgb-population-vs-hate-crimes.png)
+
+In 2018, [Gallup reported](https://news.gallup.com/poll/234863/estimate-lgbt-population-rises.aspx) an updated 4.5% estimate. 
+
+Are the gays recruiting?
+
+Of course not. It is likely that people feel more comfortable coming out two decades into the 21st century.
+
+Here, I present visualizations to help us understand how the LGBT community incurs harms simply for being different.
+
+# LGBT Population Estimates
 ___
+While heterosexism and homophobia skew disclosures about sexual orientation, demographic evidence is growing.
+
 Gary Gates and Abigail Cooke of The Williams Institute at UCLA [tabulated data](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Census2010Snapshot-US-v2.pdf?r=1) from the 2010 U.S. Census on same-sex couples. Although these data exclude same-sex couples with concerns about confidentiality and LGBT individuals who are not in traditional monogamous relationships, the estimates unveil the concentration of queer populations across states.
 
-![Some text](../data/results/same-sex-couples-state-2010.png)
+![**Figure 2**. Distribution of same-sex couples across the United States.](../data/results/same-sex-couples-state-2010.png)
 
-## Hate Crime Incidents
+The graph is unsurprising. 
+
+Dense enclaves of sexual minorities congregate in urban centers like San Francisco, Austin, Miami, and New York City. Gay meccas have long been bastions of equality.
+
+This heatmap does not account for single LGBT people. It is only an approximation of how queer America is.
+
+Nonetheless, as we will see, it is a useful point of comparison.
+
+## Comparing Populations and Hate Crimes
 ___
-Hate crimes vary across states. The FBI [began tracking hate crimes](https://ucr.fbi.gov/hate-crime/2001) in response to the passage of the Hate Crime Statistics Act of 1990. Table 13, which shows hate crime incidents according to bias motivation by state and agency, became publicly available in 2006. Over a decade's worth of hate crimes against LGBT persons are aggregated.
+In more conservative, rural states, identifying as non-straight can have serious social and emotional consequences.
+
+However, contrary to certain narratives about we will see that hate crimes actually spike in locations
+
+# Hate Crime Incidents Motivated by Sexual Orientation
+___
+From where do these data derive?
+
+The FBI [began tracking hate crimes](https://ucr.fbi.gov/hate-crime/2001) in response to the passage of the Hate Crime Statistics Act of 1990. Table 13, which shows hate crime incidents according to bias motivation by state and agency, became publicly available in 2006. Over a decade's worth of hate crimes against LGBT persons are aggregated.
 
 The [Uniform Crime Reporting Program](https://www.fbi.gov/services/cjis/ucr) (UCR) did not report hate crimes on the basis of gender and gender identity until 2013. Ethnicity and race were collapsed into a single motivation bias in 2015. The aggregated data treat these two social categories as a single variable from 2006 onwards.
 
@@ -34,4 +62,3 @@ Since the reporting practices of agencies are not uniformly encoded, only the to
 1. there are no data on hate crimes in Hawaii, so an observation with zeros for all motivation biases was added for Hawaii, 2006 to 2017;
 2. Mississippi was not included in Table 13 for the years 2006, 2007, and 2015, so an observation with zeros for all motivation biases was added; and
 3. New Jersey was excluded from Table 13 in 2012, so an observation with zeros for all motivation biases was added.
-
