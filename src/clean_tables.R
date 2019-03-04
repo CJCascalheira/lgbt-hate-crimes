@@ -203,3 +203,18 @@ which(is.na(hate_crimes$incidents))
 
 # Save data frame as CSV
 write_csv(hate_crimes, path = "data/hate_crimes.csv")
+
+
+# CLEAN TABLE 4 -----------------------------------------------------------
+
+# Import data
+crimes <- read_csv("data/table-4_crime-type/table-4_crime-type.csv")
+
+# Long form
+crimes2 <- crimes %>%
+  # Only sexual orientation
+  filter(bias_group %in% c("sexual_orientation", "gender_identity")) %>%
+  gather(key = crime, value = n, -c(year, bias, bias_group))
+
+# Save data frame as CSV
+write_csv(crimes2, path = "data/crime_type.csv")

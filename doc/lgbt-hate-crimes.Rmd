@@ -6,18 +6,44 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r}
+# Dependencies
+library(tidyverse)
+library(kableExtra)
+
+# Import data
+hate <- read_csv("../data/hate_crimes.csv")
+crimes <- read_csv("../data/crime_type.csv")
 ```
 
 # LGBT Hate Crimes Across the U.S.
 ___
-The U.S. Department of Justice Federal Bureau of Investigation (FBI) assembles hate crime statistics. From 2006 to 2017, bias against lesbian, gay, bisexual, and transgender (LGBT) individuals motivated 14,768 hate crimes.
+From the scandal surrounding [Jussie Smollett](https://www.nytimes.com/2019/02/23/us/jussie-smollett.html) to the [Pulse massacre in Orlando](https://www.cnn.com/2016/06/12/us/orlando-nightclub-shooting/index.html), recent memory teems with examples of hatred against the queer community. 
+
+These two moments are far from equal; Smollett is not Orlando. As evidence mounts to discredit the *Empire* actor, it is vital to remember that hatred is real.
+
+Resist the consideration that staging hate crimes is common. If we have learned anything from the [#MeToo movement](https://metoomvmt.org/), it is that abuse often goes unreported. Efforts to vilify victims abound.
+
+So, before White nationalists cite Smollett as the norm, let's remember the facts.
+
+Hate crimes target persons and property on the basis of bias against sexual, racial, religious, and gender diversity.
+
+The U.S. Department of Justice Federal Bureau of Investigation (FBI) assembles hate crime statistics. Since the inception of the [Uniform Crime Reporting Program](https://www.fbi.gov/services/cjis/ucr) (UCR), 30,649 crimes motivated by sexual orientation were reported.
+
+![**Figure 1**. The flow of crimes based on sexual orientation from the start of UCR until the present day.](../data/results/sexual-orientation-hate-crimes-longer-time.png)
+
+We can narrow our historical lens without losing sight of this trend. From 2006 to 2017, bias against lesbian, gay, bisexual, and transgender (LGBT) individuals motivated 16,767 hate crimes.
 
 Over this 11-year period, hatred based on sexual orientation provoked 18.1% of reported incidents.
 
+![**Figure 2**. Sexual-based hatred inflaming hate crimes more recently.](../data/results/sexual-orientation-hate-crimes-time.gif)
+
 It is estimated that only [3.5% of U.S. adults](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Gates-How-Many-People-LGBT-Apr-2011.pdf) identify as lesbian, gay, or bisexual.
 
-![**Figure 1**. Despite comprising 3.5% of the adult population in the United States, lesbian, gay, and bisexual individuals are the victims of 18.1% of all hate crimes.](../data/results/lgb-population-vs-hate-crimes.png)
+![**Figure 3**. Despite comprising 3.5% of the adult population in the United States, lesbian, gay, and bisexual individuals are the victims of 18.1% of all hate crimes.](../data/results/lgb-population-vs-hate-crimes.png)
 
 In 2018, [Gallup reported](https://news.gallup.com/poll/234863/estimate-lgbt-population-rises.aspx) an updated 4.5% estimate. 
 
@@ -25,7 +51,7 @@ Are the gays recruiting?
 
 Of course not. It is likely that people feel more comfortable coming out two decades into the 21st century.
 
-Here, I present visualizations to help us understand how the LGBT community incurs harms simply for being different.
+In any event, it is clear that simple and aggravated assaults, intimidation, and vandalism (among other crimes) disproportionately harm lesbian women, gay men, and bisexuals.
 
 # LGBT Population Estimates
 ___
@@ -33,7 +59,7 @@ While heterosexism and homophobia skew disclosures about sexual orientation, dem
 
 Gary Gates and Abigail Cooke of The Williams Institute at UCLA [tabulated data](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Census2010Snapshot-US-v2.pdf?r=1) from the 2010 U.S. Census on same-sex couples. Although these data exclude same-sex couples with concerns about confidentiality and LGBT individuals who are not in traditional monogamous relationships, the estimates unveil the concentration of queer populations across states.
 
-![**Figure 2**. Distribution of same-sex couples across the United States.](../data/results/same-sex-couples-state-2010.png)
+![**Figure 4**. Distribution of same-sex couples across the United States.](../data/results/same-sex-couples-state-2010.png)
 
 The graph is unsurprising. 
 
@@ -45,20 +71,60 @@ Nonetheless, as we will see, it is a useful point of comparison.
 
 ## Comparing Populations and Hate Crimes
 ___
-In more conservative, rural states, identifying as non-straight can have serious social and emotional consequences.
+One would expect hate crimes to occur most frequently in homophobic states.
 
-However, contrary to certain narratives about we will see that hate crimes actually spike in locations
+![**Figure 5**. The greatest number of hate crimes motivated by sexual orientation occur in New York and California.](../data/results/crimes-based-sexual-orientation-across-states.gif)
 
-# Hate Crime Incidents Motivated by Sexual Orientation
+But reported incidents do not support this assumption.
+
+Over the last 11 years, California reported 12,602 crimes motivated by sexual orientation. New York reported 6,976. Both states are relatively liberal. New Jersey, Michigan, and Massachusetts follow.
+
+Aside from Hawaii, which reports no data, the states with the least amount of hate crimes are Mississippi (49), Wyoming (56), and Alaska (89).
+
+Take a look at two maps rendered from data in 2010.
+
+![**Figure 6**. Same-sex population versus hate crimes motivated by sexual orientation in 2010.](../data/results/lgb-population-vs-hate-crimes-across-states.png)
+
+The pattern of shading is not identical, but there does appear to be a trend: states with larger queer communities may report more hate crimes.
+
+It should be noted that the above heatmeaps (animated and static) lump anti-heterosexual crimes into bias based on sexual orientation. In a moment, we will see that this lumping is negligble.
+
+In more conservative, rural states, identifying as non-straight can have serious social and emotional consequences. If people are less likely to come out, they are less likely to be targeted because of their sexual orientation.
+
+Law enforcement officers may be reluctant to classify certain crimes as hatred-based in less liberal states.
+
+The price of pride is steep. Increased visibility may provoke bigotry and backlash. Luckily, if we choose to unite as a community, the social support found in growth-fostering relationships will protect and nurture us.
+
+# Types of Crimes Committed
+___
+How does sexual orientation stack up against other motivational biases?
+
+![**Figure 7**. Sexual orientation bias versus other types of hate crimes.](../data/results/hate-crime-incidents-other-v-sexual-orientation.gif)
+
+Earlier, I mentioned the negligible influence of anti-heterosexual attitudes on aggregated data. This is what I mean.
+
+
+
+# Hate Crime Incidents
 ___
 From where do these data derive?
 
-The FBI [began tracking hate crimes](https://ucr.fbi.gov/hate-crime/2001) in response to the passage of the Hate Crime Statistics Act of 1990. Table 13, which shows hate crime incidents according to bias motivation by state and agency, became publicly available in 2006. Over a decade's worth of hate crimes against LGBT persons are aggregated.
+The FBI [began tracking hate crimes](https://ucr.fbi.gov/hate-crime/2001) in response to the passage of the Hate Crime Statistics Act of 1990. The public can access reports from [1996](https://ucr.fbi.gov/hate-crime/1996) onwards. Once again, the visualizations above reflect reported incidents only. Bias-motivated crimes may be misclassified or under-reported. 
 
-The [Uniform Crime Reporting Program](https://www.fbi.gov/services/cjis/ucr) (UCR) did not report hate crimes on the basis of gender and gender identity until 2013. Ethnicity and race were collapsed into a single motivation bias in 2015. The aggregated data treat these two social categories as a single variable from 2006 onwards.
+Over a decade's worth of hate crimes against LGBT persons are aggregated in this post. All data derive from **Table 13** and **Table 4**.
 
-Since the reporting practices of agencies are not uniformly encoded, only the total incidents by state per year are presented. Data were missing in several instances:
+**Table 13**, which shows hate crime incidents according to bias motivation by state and agency, became easily downloadable in 2006.
+
+Since the reporting practices of agencies are not uniformly encoded, only the total incidents by state per year are presented. Data in **Table 13** were missing in several instances:
 
 1. there are no data on hate crimes in Hawaii, so an observation with zeros for all motivation biases was added for Hawaii, 2006 to 2017;
-2. Mississippi was not included in Table 13 for the years 2006, 2007, and 2015, so an observation with zeros for all motivation biases was added; and
-3. New Jersey was excluded from Table 13 in 2012, so an observation with zeros for all motivation biases was added.
+2. Mississippi was not included for the years 2006, 2007, and 2015, so observations with zeros for all motivation biases were added; and
+3. New Jersey was excluded from 2012, so an observation with zeros for all motivation biases was added.
+
+**Table 4** delineates crimes against persons and property. I extracted this information from publicly available PDFs (1996 to 2003) and Excel files (2004 to 2017). A few notes:
+
+1. I did not have the time to manually extract the breakdown of type of crime from the pre-tabular source, so nuances are available for years after 2004;
+2. crimes agaist persons included two definitions of rape in 2013 to 2016 but I collapsed these variables into one; and
+3. additions (i.e., Anti-LGBT, Anti-Arab, etc.) and deletions (i.e., Anti-Homosexual) are reflected in the dataset.
+
+The UCR did not report hate crimes on the basis of gender and gender identity until 2013. Ethnicity and race were collapsed into a single motivation bias in 2015. The aggregated data treat these two social categories as a single variable.

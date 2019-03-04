@@ -11,6 +11,7 @@ library(transformr)
 # Import data
 hate <- read_csv("data/hate_crimes.csv")
 couples <- read_csv("data/2010-census-same-sex-couples-state.csv")
+crimes <- read_csv("data/crime_type.csv")
 
 # Set defaults
 theme_set(theme_minimal())
@@ -26,7 +27,7 @@ so_total_year <- hate_so %>%
   group_by(year) %>%
   summarize(total_so = sum(incidents))
 
-# Total SO hate crimes from 2006-2017
+# Total SO hate crimes from 2006-2017 with hetero
 so_total <- sum(so_total_year$total_so)
 
 # Total sexual orientation hate crimes over time
@@ -86,8 +87,8 @@ all_total <- sum(all_total_year$total_incidents)
 # Overall proportion of SO 2006-2017
 so_total / all_total
 
-# LGBT total incidents 2006-2017
-lgbt_total <- hate %>%
+# LGBT total incidents 2006-2017 w/ hetero
+lgbt_total_with_hetero <- hate %>%
   group_by(bias) %>%
   summarize(total = sum(incidents)) %>%
   mutate(bias = fct_collapse(
@@ -254,7 +255,7 @@ hate_across_states_2010 <- sf_hate %>%
   geom_sf(aes(fill = incidents), color = "white") +
   coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100", ndiscr = 0) +
   scale_fill_viridis_c(option = "viridis", labels = scales::comma) +
-  labs(title = "Number of Hate Crimes Against LGB Individuals by State, 2010",
+  labs(title = "Number of Crimes Based on Sexual Orientation by State, 2010",
        caption = "Source: FBI UCR Hate Crime Statistics",
        fill = "") +
   theme(axis.title.x = element_blank(),
@@ -283,7 +284,7 @@ hate_across_states <- sf_hate %>%
   geom_sf(aes(fill = incidents), color = "white") +
   coord_sf(crs = "+proj=aea +lat_1=25 +lat_2=50 +lon_0=-100", ndiscr = 0) +
   scale_fill_viridis_c(option = "viridis", labels = scales::comma) +
-  labs(title = "Hate Crimes Against LGB Individuals Across States",
+  labs(title = "Crimes Based on Sexual Orientation Across States",
        subtitle = "Year: {frame_time}",
        caption = "Source: FBI UCR Hate Crime Statistics",
        fill = "") +
@@ -294,7 +295,7 @@ hate_across_states <- sf_hate %>%
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         legend.position = "top",
-        legend.key.width = unit(3, "cm"),
+        legend.key.width = unit(4, "cm"),
         legend.key.height = unit(0.2, "cm"),
         plot.title = element_text(hjust = 0.5, size = 18),
         plot.subtitle = element_text(hjust = 0.5, size = 18)) +
@@ -302,5 +303,91 @@ hate_across_states <- sf_hate %>%
 
 # Save animation
 animate(hate_across_states, width = 700, height = 500)
-anim_save("hate-crimes-against-lgb-across-states.gif",
+anim_save("crimes-based-sexual-orientation-across-states.gif",
           animation = last_animation(), path = "data/results/")
+
+# Greatest number of crimes by state
+hate %>%
+  group_by(state) %>%
+  summarize(total = sum(incidents)) %>%
+  arrange(desc(total)) %>%
+  head()
+
+# Least number of crimes by state
+hate %>%
+  group_by(state) %>%
+  summarize(total = sum(incidents)) %>%
+  arrange(total) %>%
+  tail()
+
+# ANALYZE TABLE 4 ---------------------------------------------------------
+
+# Total sexual orientation crimes 1996-2017
+crimes %>%
+  filter(bias == "sexual_orientation", crime == "total") %>%
+  select(-c(bias_group, crime)) %>%
+  summarize(total = sum(n))
+
+# Sexual orientation total incidents 2006-2017
+(non_hetero_total_year <- crimes %>%
+   filter(bias %in% c("sexual_orientation", "anti_hetero"),
+          crime == "total") %>%
+   select(-c(bias_group, crime)) %>%
+   spread(key = bias, value = n) %>%
+   filter(!(year %in% c(1996, 1997, 1998, 1999, 2000,
+                        2001, 2002, 2003, 2004, 2005))) %>%
+   group_by(year) %>%
+   summarize(non_hetero = sexual_orientation - anti_hetero)
+)
+
+# Anti-Heterosexual total incidents 2006-2017
+(anti_hetero_year <- crimes %>%
+    filter(bias == "anti_hetero", crime == "total") %>%
+    select(-c(bias_group, crime)) %>%
+    spread(key = bias, value = n) %>%
+    filter(!(year %in% c(1996, 1997, 1998, 1999, 2000,
+                         2001, 2002, 2003, 2004, 2005)))
+)
+
+# Anti-heterosexual total
+(anti_hetero_total <- sum(anti_hetero_year$anti_hetero))
+
+# LGB total ONLY, no hetero, 2006-2017
+(non_hetero_total <- sum(non_hetero_total_year$non_hetero))
+
+# LGBT total ONLY, no hetero, 2006-2017
+(lgbt_total <- crimes %>%
+    filter(bias %in% c("sexual_orientation", "gender_identity"),
+           crime == "total") %>%
+    filter(!(year %in% c(1996, 1997, 1998, 1999, 2000,
+                         2001, 2002, 2003, 2004, 2005))) %>%
+    group_by(year) %>%
+    summarize(total = sum(n)) %>%
+    summarize(lgbt = sum(total) - anti_hetero_total) %>%
+    pull()
+)
+
+# TYPE OF CRIME -----------------------------------------------------------
+
+# Longer time line
+so_crimes_longer <- crimes %>%
+  filter(bias == "sexual_orientation",
+         crime == "total") %>%
+  ggplot(aes(x = year, y = n)) +
+  geom_line(color = "#440154FF", size = 1.25) +
+  scale_y_continuous(breaks = seq(0, 1800, 200), limits = c(0, 1800),
+                     expand = c(0, 0), labels = scales::comma) +
+  scale_x_continuous(breaks = seq(1996, 2017, 2), limits = c(1996, 2017),
+                     minor_breaks = seq(1, 11, 1)) +
+  labs(y = "Incidents",
+       x = "Year",
+       title = "Hate Crimes Based on Sexual Orientation",
+       subtitle = "United States, 1996—2017",
+       caption = "Source: FBI UCR Hate Crime Statistics")
+
+# Save plot
+ggsave("sexual-orientation-hate-crimes-longer-time.png", plot = so_crimes_longer, 
+       path = "data/results/", width = 6.5, height = 5)
+
+#
+crimes
