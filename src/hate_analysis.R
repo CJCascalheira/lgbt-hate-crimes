@@ -631,3 +631,99 @@ ggsave("sexual-orientation-bias-crimes-persons.png", plot = so_bias_persons,
 # Save faceted barchart
 ggsave("sexual-orientation-bias-crimes-property.png", plot = so_bias_property,
        path = "data/results/", width = 6.5, height = 5)
+
+# GENDER IDENTITY: BASIC EDA ----------------------------------------------
+
+# Total gender identity crimes over time
+(gi_over_time <- crimes %>%
+  filter(bias_group != "Sexual Orientation", crime == "Total Crimes",
+         bias == "Gender Identity") %>%
+  ggplot(aes(x = year, y = n)) +
+  geom_line(color = "#3B528BFF", size = 1.25) +
+  scale_y_continuous(breaks = seq(0, 150, 25), limits = c(0, 150)) +
+  labs(y = "Reported Incidents",
+       x = "Year",
+       title = "Hate Crimes Based on Gender Identity",
+       subtitle = "Total Reported Incidents, United States, 2013—2017")
+)
+
+# Relevel factors
+crimes$bias <- fct_relevel(crimes$bias, "Anti-Transgender", "Anti-Non-Binary")
+
+# Breakdown total bias for gender identity
+(gi_bias <- crimes %>%
+  filter(bias_group != "Sexual Orientation", crime == "Total Crimes",
+         bias != "Gender Identity") %>%
+  group_by(bias) %>%
+  summarize(totals = sum(n)) %>%
+  ggplot(aes(x = bias, y = totals, fill = bias)) +
+  geom_col() +
+  scale_fill_manual(values = c("#3B528BFF", "#5DC863FF")) +
+  labs(y = "Reported Incidents",
+       x = "",
+       title = "Gender Identity Crimes by Motivational Bias",
+       subtitle = "Total Reported Incidents, United States, 2013—2017",
+       caption = "Source: FBI UCR Hate Crime Statistics") +
+  theme(legend.position = "none")
+)
+
+# Combine plots
+(gi_basic_eda <- plot_grid(gi_over_time, gi_bias, ncol = 1, align = "v"))
+
+# Save plot
+ggsave("gender-identity-hate-crimes-2013-2017.png", plot = gi_basic_eda,
+       path = "data/results/", width = 7, height = 10)
+
+# GENDER IDENTITY: CRIME TYPE ---------------------------------------------
+
+# Relevel factors
+crimes$crime <- fct_relevel(crimes$crime, "Simple Assault", "Aggravated Assault", "Intimidation",
+                            "Other: Person", "Rape", "Murder")
+
+# Crimes against persons based on gender identity
+(gi_persons <- crimes %>%
+  filter(bias == "Gender Identity",
+         !(crime %in% c("Total Crimes", "Human Trafficking"))) %>%
+  filter(crime %in% persons) %>%
+  group_by(bias, crime) %>%
+  summarize(totals = sum(n)) %>%
+  ggplot(aes(x = crime, y = totals, fill = crime)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_viridis_d() +
+  labs(title = "Gender Identity: Crimes Against Persons",
+       subtitle = "Total Reported Incidents, United States, 2013—2017",
+       x = "Crimes Against Persons",
+       y = "Reported Incidents") +
+  theme(legend.position = "none")
+)
+
+# Relevel factors
+crimes$crime <- fct_relevel(crimes$crime, "Larceny", "Vandalism", "Robbery", "Burglary",
+                            "Society", "Other: Property", "Motor Theft", "Arson")
+
+# Crimes against property based on gender identity
+(gi_property <- crimes %>%
+    filter(bias == "Gender Identity",
+           !(crime %in% c("Total Crimes"))) %>%
+    filter(crime %in% property) %>%
+    group_by(bias, crime) %>%
+    summarize(totals = sum(n)) %>%
+    ggplot(aes(x = crime, y = totals, fill = crime)) +
+    geom_col() +
+    coord_flip() +
+    scale_fill_viridis_d() +
+    labs(title = "Gender Identity: Crimes Against Property",
+         subtitle = "Total Reported Incidents, United States, 2013—2017",
+         caption = "Source: FBI UCR Hate Crime Statistics",
+         x = "Crimes Against Property",
+         y = "Reported Incidents") +
+    theme(legend.position = "none")
+)
+
+# Combine plots
+(gi_crime_types <- plot_grid(gi_persons, gi_property, ncol = 1, align = "v"))
+
+# Save plot
+ggsave("gender-identity-crimes-against-persons-property-2013-2017.png", plot = gi_crime_types,
+       path = "data/results/", width = 7, height = 10)
