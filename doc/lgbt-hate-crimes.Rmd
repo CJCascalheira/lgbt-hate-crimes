@@ -130,3 +130,28 @@ Since the reporting practices of agencies are not uniformly encoded, only the to
 3. additions (i.e., Anti-LGBT, Anti-Arab, etc.) and deletions (i.e., Anti-Homosexual) are reflected in the dataset.
 
 The UCR did not report hate crimes on the basis of gender and gender identity until 2013. Ethnicity and race were collapsed into a single motivation bias in 2015. The aggregated data treat these two social categories as a single variable.
+
+# Resources
+___
+If you have been the victim of a hate crime, seek immediate help.
+
+### Report
+After the incident, get medical attention and write down all the details you can remember about your assailant (i.e., gender, clothing, skin color, car type, hairstyle, etc.) and the incident (i.e., what happened, where were you, what time was it).
+
+File a police report.
+
+You can also report an incident anonymously to [Hate Crime Help](https://hatecrimehelp.com/).
+
+### Support
+Victims of hate crimes are [more likely](https://www.apa.org/advocacy/interpersonal-violence/hate-crimes) to suffer from post-traumatic stress, anxiety, depression, and anger. You can [find a psychology](https://locator.apa.org/) who specializes in LGBTQ Issues. There may be a LGBT-friendly [primary care physician](http://www.glma.org/) near you.
+
+If you have began to use drugs and alcohol as a result of an incident, there are [gay-affirming substance abuse counselors](http://www.nalgap.org/) available.
+
+If you are religious, [find an affirming Christian church](https://www.gaychurch.org/find_a_church/) near you. [PFLAG](https://pflag.org/) support groups are in most states.
+
+Consider getting involved with the [Anti-Violence Project](https://avp.org/). Contact [LAMBDA](http://www.qrd.org/qrd/www/orgs/avproject/avp_gen.htm) or the [LGBT National Help Center](https://www.glbthotline.org/).
+
+### Source Code
+You can find the source code and datasets that generated these visualizations on my [GitHub page](https://github.com/corycaaz/lgbt-hate-crimes).
+
+Be safe. Stick together. Love one another.
