@@ -387,49 +387,247 @@ so_crimes_longer <- crimes %>%
 ggsave("sexual-orientation-hate-crimes-longer-time.png", plot = so_crimes_longer, 
        path = "data/results/", width = 6.5, height = 5)
 
-# TYPE OF CRIME -----------------------------------------------------------
-
-# Persons vs. property
-persons <- c("murder", "rape", "agg_assault", "sim_assault",
-             "intimidation", "human_traffick", "other_person")
-property <- c("robbery", "burglary", "larceny", "motor_theft",
-              "arson", "vandalism", "other_property", "society")
+# TYPE OF CRIME AGAINST PERSONS -------------------------------------------
 
 # As factors and integers
 crimes <- within(crimes, {
-  crime <- factor(crime)
-  bias_group <- factor(bias_group)
-  bias <- factor(bias)
+  crime <- factor(crime, labels = c("Aggravated Assault", "Arson", "Burglary", "Human Trafficking",
+                                    "Intimidation", "Larceny", "Motor Theft", "Murder", "Other: Person",
+                                    "Other: Property", "Rape", "Robbery", "Simple Assault",
+                                    "Society", "Total Crimes", "Vandalism"))
+  bias_group <- factor(bias_group, labels = c("Gender Identity", "Sexual Orientation"))
+  bias <- factor(bias, labels = c("Anti-Bisexual", "Anti-Gay", "Anti-Non-Binary",
+                                  "Anti-Heterosexual", "Anti-Homosexual", "Anti-Lesbian",
+                                  "Anti-LGBT", "Anti-Transgender", "Gender Identity",
+                                  "Sexual Orientation"))
   year <- as.integer(year)
 })
 
+# Persons vs. property
+persons <- c("Murder", "Rape", "Aggravated Assault", "Simple Assault",
+             "Intimidation", "Human Trafficking", "Other: Person")
+property <- c("Robbery", "Burglary", "Larceny", "Motor Theft",
+              "Arson", "Vandalism", "Other: Property", "Society")
+
 # Breakdown of total crimes against person
 crimes %>%
-  filter(crime != "total", bias_group == "sexual_orientation") %>%
+  filter(crime != "Total Crimes", bias_group == "Sexual Orientation") %>%
   filter(crime %in% persons) %>%
   group_by(crime) %>%
   summarize(totals = sum(n)) %>%
   arrange(totals)
 
 # Relevel factors
-crimes$crime <- fct_relevel(crimes$crime, "sim_assault", "intimidation", "agg_assault",
-                            "other_person", "rape", "murder", "human_traffick")
+crimes$crime <- fct_relevel(crimes$crime, "Simple Assault", "Intimidation", "Aggravated Assault",
+                            "Other: Person", "Rape", "Murder", "Human Trafficking")
 
 # Barchart of total crimes against person 
-crimes %>%
-  filter(!(crime %in% c("total", "human_traffick")), bias_group == "sexual_orientation") %>%
+(so_total_crime_person <- crimes %>%
+  filter(!(crime %in% c("Total Crimes", "Human Trafficking")),
+         bias_group == "Sexual Orientation") %>%
   filter(crime %in% persons) %>%
   group_by(crime) %>%
   summarize(totals = sum(n)) %>%
-  ggplot(aes(x = crime, y = totals)) +
-  geom_col()
+  ggplot(aes(x = crime, y = totals, fill = crime)) +
+  geom_col() +
+  scale_fill_viridis_d() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Type of Hate Crime Based on Sexual Orientation",
+       subtitle = "Total Crimes Against Persons, United States, 1996—2017",
+       caption = "Source: FBI UCR Hate Crime Statistics",
+       y = "Reported Incidents",
+       x = "Crimes Against Persons",
+       fill = "") +
+  theme(legend.position = "none")
+)
+
+# Save barchart
+ggsave("sexual-orientation-crime-type-against-person-1996-2017.png", plot = so_total_crime_person, 
+       path = "data/results/", width = 6.5, height = 5)
 
 # Breakdown of total crimes against person over time
+so_yearly_crime_person <- crimes %>%
+  filter(!(crime %in% c("Total Crimes", "Human Trafficking")),
+         bias_group == "Sexual Orientation") %>%
+  filter(crime %in% persons) %>%
+  ggplot(aes(x = crime, y = n, fill = crime)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_viridis_d() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Crimes Against Persons Based on Sexual Orientation",
+       subtitle = "United States, Year: {frame_time}",
+       caption = "Source: FBI UCR Hate Crime Statistics",
+       y = "Reported Incidents",
+       x = "Crimes Against Persons",
+       fill = "") +
+  theme(legend.position = "none",
+        axis.title = element_text(size = 18),
+        axis.text = element_text(size = 14),
+        plot.title = element_text(size = 20),
+        plot.subtitle = element_text(size = 16)) +
+  transition_time(year)
+
+# Save animation
+animate(so_yearly_crime_person, width = 700, height = 500)
+anim_save("sexual-orientation-crime-type-against-person-yearly.gif",
+          animation = last_animation(), path = "data/results/")
+
+# TYPE OF CRIME AGAINST PROPERTY ------------------------------------------
 
 # Breakdown of total crimes against property
+crimes %>%
+  filter(crime != "Total Crimes", bias_group == "Sexual Orientation") %>%
+  filter(crime %in% property) %>%
+  group_by(crime) %>%
+  summarize(totals = sum(n)) %>%
+  arrange(totals)
+
+# Relevel factors
+crimes$crime <- fct_relevel(crimes$crime, "Vandalism", "Robbery", "Larceny", "Burglary", "Arson",
+                            "Society", "Other: Property", "Motor Theft")
+
+# Barchart total crimes against property
+(so_total_crime_property <- crimes %>%
+  filter(crime != "Total Crimes", bias_group == "Sexual Orientation") %>%
+  filter(crime %in% property) %>%
+  group_by(crime) %>%
+  summarize(totals = sum(n)) %>%
+  ggplot(aes(x = crime, y = totals, fill = crime)) +
+  geom_col() +
+  scale_fill_viridis_d() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Type of Hate Crime Based on Sexual Orientation",
+       subtitle = "Total Crimes Against Property, United States, 1996—2017",
+       caption = "Source: FBI UCR Hate Crime Statistics",
+       y = "Reported Incidents",
+       x = "Crimes Against Property",
+       fill = "") +
+  theme(legend.position = "none")
+)
+
+# Save barchart
+ggsave("sexual-orientation-crime-type-against-property-1996-2017.png", plot = so_total_crime_property,
+       path = "data/results/", width = 6.5, height = 5)
 
 # Breakdown of total crimes against property over time
+so_yearly_crime_property <- crimes %>%
+  filter(!(crime %in% c("Total Crimes", "Human Trafficking")),
+         bias_group == "Sexual Orientation") %>%
+  filter(crime %in% property) %>%
+  ggplot(aes(x = crime, y = n, fill = crime)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_viridis_d() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Crimes Against Property Based on Sexual Orientation",
+       subtitle = "United States, Year: {frame_time}",
+       caption = "Source: FBI UCR Hate Crime Statistics",
+       y = "Reported Incidents",
+       x = "Crimes Against Property",
+       fill = "") +
+  theme(legend.position = "none",
+        axis.title = element_text(size = 18),
+        axis.text = element_text(size = 14),
+        plot.title = element_text(size = 20),
+        plot.subtitle = element_text(size = 16)) +
+  transition_time(year)
+
+# Save animation
+animate(so_yearly_crime_property, width = 700, height = 500)
+anim_save("sexual-orientation-crime-type-against-property-yearly.gif",
+          animation = last_animation(), path = "data/results/")
+
+# MOTIVATIONAL BIASES -----------------------------------------------------
 
 # Breakdown of total bias
+crimes %>%
+  filter(!(crime %in% c("Total Crimes", "Human Trafficking")),
+         bias != "Sexual Orientation", bias_group != "Gender Identity") %>%
+  group_by(bias) %>%
+  summarize(totals = sum(n)) %>%
+  arrange(totals)
 
-# Breakdown of bias over time
+# Relevel factors
+crimes$bias <- fct_relevel(crimes$bias, "Anti-Gay", "Anti-Homosexual", "Anti-Lesbian", "Anti-LGBT",
+                           "Anti-Bisexual", "Anti-Heterosexual")
+
+# Barchart of total bias
+(so_bias_type <- crimes %>%
+  filter(!(crime %in% c("Total Crimes", "Human Trafficking")),
+         bias != "Sexual Orientation", bias_group != "Gender Identity") %>%
+  group_by(bias) %>%
+  summarize(totals = sum(n)) %>%
+  ggplot(aes(x = bias, y = totals, fill = bias)) +
+  geom_col() +
+  scale_fill_viridis_d() +
+  scale_y_continuous(breaks = seq(0, 12000, 3000), limits = c(0, 12000), 
+                     labels = scales::comma) +
+  labs(title = "Sexual Orientation Hate Crimes by Motivational Bias",
+       subtitle = "Total Reported Incidents, United States, 1996—2017",
+       caption = "Source: FBI UCR Hate Crime Statistics",
+       y = "Reported Incidents",
+       x = "Type of Bias",
+       fill = "") +
+  theme(legend.position = "none")
+)
+
+# Save barchart
+ggsave("sexual-orientation-breakdown-bias.png", plot = so_bias_type,
+       path = "data/results/", width = 6.5, height = 5)
+
+# Bias by crime against persons
+(so_bias_persons <- crimes %>%
+    filter(!(crime %in% c("Total Crimes", "Human Trafficking")),
+           bias != "Sexual Orientation", bias_group != "Gender Identity") %>%
+    filter(crime %in% persons) %>%
+    group_by(bias, crime) %>%
+    summarize(totals = sum(n)) %>%
+    filter(!(bias %in% c("Anti-LGBT", "Anti-Bisexual", "Anti-Heterosexual"))) %>%
+    ggplot(aes(x = crime, y = totals, fill = crime)) +
+    geom_col() +
+    coord_flip() +
+    facet_wrap(~ bias) +
+    scale_fill_viridis_d() +
+    scale_y_continuous(labels = scales::comma) +
+    labs(title = "Crimes Against Persons by Motivational Bias",
+         subtitle = "Total Reported Incidents, United States, 1996—2017",
+         caption = "Source: FBI UCR Hate Crime Statistics",
+         y = "Reported Incidents",
+         x = "Crimes Against Persons",
+         fill = "") +
+    theme(legend.position = "none",
+          strip.text = element_text(size = 12))
+)
+
+# Save faceted barchart
+ggsave("sexual-orientation-bias-crimes-persons.png", plot = so_bias_persons,
+       path = "data/results/", width = 6.5, height = 5)
+
+# Bias by crime against property
+(so_bias_property <- crimes %>%
+  filter(!(crime %in% c("Total Crimes", "Human Trafficking")),
+         bias != "Sexual Orientation", bias_group != "Gender Identity") %>%
+  filter(crime %in% property) %>%
+  group_by(bias, crime) %>%
+  summarize(totals = sum(n)) %>%
+  filter(!(bias %in% c("Anti-LGBT", "Anti-Bisexual", "Anti-Heterosexual"))) %>%
+  ggplot(aes(x = crime, y = totals, fill = crime)) +
+  geom_col() +
+  coord_flip() +
+  facet_wrap(~ bias) +
+  scale_fill_viridis_d() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Crimes Against Property by Motivational Bias",
+       subtitle = "Total Reported Incidents, United States, 1996—2017",
+       caption = "Source: FBI UCR Hate Crime Statistics",
+       y = "Reported Incidents",
+       x = "Crimes Against Property",
+       fill = "") +
+  theme(legend.position = "none",
+        strip.text = element_text(size = 12))
+)
+
+# Save faceted barchart
+ggsave("sexual-orientation-bias-crimes-property.png", plot = so_bias_property,
+       path = "data/results/", width = 6.5, height = 5)
