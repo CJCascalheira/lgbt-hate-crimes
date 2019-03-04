@@ -367,8 +367,6 @@ crimes %>%
     pull()
 )
 
-# TYPE OF CRIME -----------------------------------------------------------
-
 # Longer time line
 so_crimes_longer <- crimes %>%
   filter(bias == "sexual_orientation",
@@ -389,5 +387,49 @@ so_crimes_longer <- crimes %>%
 ggsave("sexual-orientation-hate-crimes-longer-time.png", plot = so_crimes_longer, 
        path = "data/results/", width = 6.5, height = 5)
 
-#
-crimes
+# TYPE OF CRIME -----------------------------------------------------------
+
+# Persons vs. property
+persons <- c("murder", "rape", "agg_assault", "sim_assault",
+             "intimidation", "human_traffick", "other_person")
+property <- c("robbery", "burglary", "larceny", "motor_theft",
+              "arson", "vandalism", "other_property", "society")
+
+# As factors and integers
+crimes <- within(crimes, {
+  crime <- factor(crime)
+  bias_group <- factor(bias_group)
+  bias <- factor(bias)
+  year <- as.integer(year)
+})
+
+# Breakdown of total crimes against person
+crimes %>%
+  filter(crime != "total", bias_group == "sexual_orientation") %>%
+  filter(crime %in% persons) %>%
+  group_by(crime) %>%
+  summarize(totals = sum(n)) %>%
+  arrange(totals)
+
+# Relevel factors
+crimes$crime <- fct_relevel(crimes$crime, "sim_assault", "intimidation", "agg_assault",
+                            "other_person", "rape", "murder", "human_traffick")
+
+# Barchart of total crimes against person 
+crimes %>%
+  filter(!(crime %in% c("total", "human_traffick")), bias_group == "sexual_orientation") %>%
+  filter(crime %in% persons) %>%
+  group_by(crime) %>%
+  summarize(totals = sum(n)) %>%
+  ggplot(aes(x = crime, y = totals)) +
+  geom_col()
+
+# Breakdown of total crimes against person over time
+
+# Breakdown of total crimes against property
+
+# Breakdown of total crimes against property over time
+
+# Breakdown of total bias
+
+# Breakdown of bias over time
