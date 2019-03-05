@@ -443,7 +443,7 @@ crimes$crime <- fct_relevel(crimes$crime, "Simple Assault", "Intimidation", "Agg
 
 # Save barchart
 ggsave("sexual-orientation-crime-type-against-person-1996-2017.png", plot = so_total_crime_person, 
-       path = "data/results/", width = 6.5, height = 5)
+       path = "data/results/", width = 7, height = 5)
 
 # Breakdown of total crimes against person over time
 so_yearly_crime_person <- crimes %>%
@@ -508,7 +508,7 @@ crimes$crime <- fct_relevel(crimes$crime, "Vandalism", "Robbery", "Larceny", "Bu
 
 # Save barchart
 ggsave("sexual-orientation-crime-type-against-property-1996-2017.png", plot = so_total_crime_property,
-       path = "data/results/", width = 6.5, height = 5)
+       path = "data/results/", width = 7, height = 5)
 
 # Breakdown of total crimes against property over time
 so_yearly_crime_property <- crimes %>%
@@ -564,7 +564,7 @@ crimes$bias <- fct_relevel(crimes$bias, "Anti-Gay", "Anti-Homosexual", "Anti-Les
   scale_y_continuous(breaks = seq(0, 12000, 3000), limits = c(0, 12000), 
                      labels = scales::comma) +
   labs(title = "Sexual Orientation Hate Crimes by Motivational Bias",
-       subtitle = "Total Reported Incidents, United States, 1996—2017",
+       subtitle = "Total Reported Incidents, United States, 2004—2017",
        caption = "Source: FBI UCR Hate Crime Statistics",
        y = "Reported Incidents",
        x = "Type of Bias",
@@ -591,7 +591,7 @@ ggsave("sexual-orientation-breakdown-bias.png", plot = so_bias_type,
     scale_fill_viridis_d() +
     scale_y_continuous(labels = scales::comma) +
     labs(title = "Crimes Against Persons by Motivational Bias",
-         subtitle = "Total Reported Incidents, United States, 1996—2017",
+         subtitle = "Total Reported Incidents, United States, 2004—2017",
          caption = "Source: FBI UCR Hate Crime Statistics",
          y = "Reported Incidents",
          x = "Crimes Against Persons",
@@ -619,7 +619,7 @@ ggsave("sexual-orientation-bias-crimes-persons.png", plot = so_bias_persons,
   scale_fill_viridis_d() +
   scale_y_continuous(labels = scales::comma) +
   labs(title = "Crimes Against Property by Motivational Bias",
-       subtitle = "Total Reported Incidents, United States, 1996—2017",
+       subtitle = "Total Reported Incidents, United States, 2004—2017",
        caption = "Source: FBI UCR Hate Crime Statistics",
        y = "Reported Incidents",
        x = "Crimes Against Property",

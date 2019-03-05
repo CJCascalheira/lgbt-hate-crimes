@@ -37,21 +37,23 @@ The U.S. Department of Justice Federal Bureau of Investigation (FBI) assembles h
 
 We can narrow our historical lens without losing sight of this trend. From 2006 to 2017, bias against lesbian, gay, bisexual, and transgender (LGBT) individuals motivated 16,767 hate crimes.
 
-Over this 11-year period, hatred based on sexual orientation provoked 18.1% of reported incidents.
-
 ![**Figure 2**. Sexual-based hatred inflaming hate crimes more recently.](../data/results/sexual-orientation-hate-crimes-time.gif)
+
+Over this 11-year period, hatred based on sexual orientation provoked 18.1% of reported incidents.
 
 It is estimated that only [3.5% of U.S. adults](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Gates-How-Many-People-LGBT-Apr-2011.pdf) identify as lesbian, gay, or bisexual.
 
 ![**Figure 3**. Despite comprising 3.5% of the adult population in the United States, lesbian, gay, and bisexual individuals are the victims of 18.1% of all hate crimes.](../data/results/lgb-population-vs-hate-crimes.png)
 
-In 2018, [Gallup reported](https://news.gallup.com/poll/234863/estimate-lgbt-population-rises.aspx) an updated 4.5% estimate. 
+Sexual minorities may not incur the most damages to persons and property from hatred-based violence. But when a hate crime occurs, nearly every fifth victim will identify as lesbian, gay, or bisexual. Given our small percentage of the total U.S. population, this disparity is disturbing.
 
-Are the gays recruiting?
+In 2018, [Gallup reported](https://news.gallup.com/poll/234863/estimate-lgbt-population-rises.aspx) an updated estimate: 4.5% of adults identify as LGBT. One can either conclude that the LGBT population is growing or that people feel more comfortable coming out. 
 
-Of course not. It is likely that people feel more comfortable coming out two decades into the 21st century.
+In any event, it is clear that bias-motivated crimes disproportionately harm lesbian women, gay men, and bisexuals.
 
-In any event, it is clear that simple and aggravated assaults, intimidation, and vandalism (among other crimes) disproportionately harm lesbian women, gay men, and bisexuals.
+Some years are worst than others.
+
+![**Figure 4**. Sexual orientation bias versus other types of hate crimes.](../data/results/hate-crime-incidents-other-v-sexual-orientation.gif)
 
 # LGBT Population Estimates
 ___
@@ -59,7 +61,7 @@ While heterosexism and homophobia skew disclosures about sexual orientation, dem
 
 Gary Gates and Abigail Cooke of The Williams Institute at UCLA [tabulated data](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Census2010Snapshot-US-v2.pdf?r=1) from the 2010 U.S. Census on same-sex couples. Although these data exclude same-sex couples with concerns about confidentiality and LGBT individuals who are not in traditional monogamous relationships, the estimates unveil the concentration of queer populations across states.
 
-![**Figure 4**. Distribution of same-sex couples across the United States.](../data/results/same-sex-couples-state-2010.png)
+![**Figure 5**. Distribution of same-sex couples across the United States.](../data/results/same-sex-couples-state-2010.png)
 
 The graph is unsurprising. 
 
@@ -73,39 +75,61 @@ Nonetheless, as we will see, it is a useful point of comparison.
 ___
 One would expect hate crimes to occur most frequently in homophobic states.
 
-![**Figure 5**. The greatest number of hate crimes motivated by sexual orientation occur in New York and California.](../data/results/crimes-based-sexual-orientation-across-states.gif)
+![**Figure 6**. The greatest number of hate crimes motivated by sexual orientation occur in New York and California.](../data/results/crimes-based-sexual-orientation-across-states.gif)
 
 But reported incidents do not support this assumption.
 
-Over the last 11 years, California reported 12,602 crimes motivated by sexual orientation. New York reported 6,976. Both states are relatively liberal. New Jersey, Michigan, and Massachusetts follow.
+Over the last 11 years, California reported 12,602 crimes motivated by sexual orientation. New York reported 6,976. Both states are relatively liberal. New Jersey, Michigan, and Massachusetts follow as the highest reporters of bias-motivated crime.
 
 Aside from Hawaii, which reports no data, the states with the least amount of hate crimes are Mississippi (49), Wyoming (56), and Alaska (89).
 
 Take a look at two maps rendered from data in 2010.
 
-![**Figure 6**. Same-sex population versus hate crimes motivated by sexual orientation in 2010.](../data/results/lgb-population-vs-hate-crimes-across-states.png)
+![**Figure 7**. Same-sex population versus hate crimes motivated by sexual orientation in 2010.](../data/results/lgb-population-vs-hate-crimes-across-states.png)
 
-The pattern of shading is not identical, but there does appear to be a trend: states with larger queer communities may report more hate crimes.
+The pattern of shading is not identical, but there does appear to be a trend: states with larger queer communities may report more hate crimes. Increased visibility may provoke bigotry and backlash.
 
-It should be noted that the above heatmeaps (animated and static) lump anti-heterosexual crimes into bias based on sexual orientation. In a moment, we will see that this lumping is negligble.
+It should be noted that the above heatmaps (animated and static) lump anti-heterosexual crimes into bias based on sexual orientation. In a moment, we will see that this lumping is negligible.
 
-In more conservative, rural states, identifying as non-straight can have serious social and emotional consequences. If people are less likely to come out, they are less likely to be targeted because of their sexual orientation.
+Regional norms may also affect the pattern of reporting. In more conservative, rural states, identifying as non-straight can have serious social and emotional repercussions. Consequently, individuals may delay or decline coming out. When people are less likely to come out, they are less likely to be targeted because of their sexual orientation.
 
-Law enforcement officers may be reluctant to classify certain crimes as hatred-based in less liberal states.
+Also, law enforcement officers may be reluctant to classify certain crimes as hatred-based in less liberal states. Some states, such as Georgia in 2019, lack laws punishing bias-motivated crimes. 
 
-The price of pride is steep. Increased visibility may provoke bigotry and backlash. Luckily, if we choose to unite as a community, the social support found in growth-fostering relationships will protect and nurture us.
+One may think that the price of pride is steep. Luckily, if we choose to unite as a community, the social support found in growth-fostering relationships will protect and nurture us.
 
 # Types of Crimes Committed
 ___
-How does sexual orientation stack up against other motivational biases?
-
-![**Figure 7**. Sexual orientation bias versus other types of hate crimes.](../data/results/hate-crime-incidents-other-v-sexual-orientation.gif)
-
 Earlier, I mentioned the negligible influence of anti-heterosexual attitudes on aggregated data. This is what I mean.
+
+![**Figure 8**. Anti-gay attitudes about homosexual men are most likely to instigate bias-motivated violence.](../data/results/sexual-orientation-breakdown-bias.png)
+
+Gay men are the most frequent victims of hatred-based violence.
+
+## Crimes Against Persons
+___
+
+![****](../data/results/sexual-orientation-crime-type-against-person-1996-2017.png)
+
+![****](../data/results/sexual-orientation-bias-crimes-persons.png)
+
+![****](../data/results/sexual-orientation-crime-type-against-person-yearly.gif)
+
+## Crimes Against Property
+___
+
+![****](../data/results/sexual-orientation-crime-type-against-property-1996-2017.png)
+
+![****](../data/results/sexual-orientation-bias-crimes-property.png)
+
+![****](../data/results/sexual-orientation-crime-type-against-property-yearly.gif)
 
 ## Transgender & Gender Non-Conforming
 ___
 The FBI did not track crimes motivated by gender identity until 2013.
+
+![****](../data/results/gender-identity-hate-crimes-2013-2017.png)
+
+![****](../data/results/gender-identity-crimes-against-persons-property-2013-2017.png)
 
 # Hate Crime Incidents
 ___
