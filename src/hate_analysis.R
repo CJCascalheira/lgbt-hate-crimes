@@ -589,7 +589,7 @@ ggsave("sexual-orientation-breakdown-bias.png", plot = so_bias_type,
     coord_flip() +
     facet_wrap(~ bias) +
     scale_fill_viridis_d() +
-    scale_y_continuous(labels = scales::comma) +
+    scale_y_continuous(labels = scales::comma, limits = c(min(0), max(4000))) +
     labs(title = "Crimes Against Persons by Motivational Bias",
          subtitle = "Total Reported Incidents, United States, 2004—2017",
          caption = "Source: FBI UCR Hate Crime Statistics",
@@ -617,7 +617,7 @@ ggsave("sexual-orientation-bias-crimes-persons.png", plot = so_bias_persons,
   coord_flip() +
   facet_wrap(~ bias) +
   scale_fill_viridis_d() +
-  scale_y_continuous(labels = scales::comma) +
+  scale_y_continuous(labels = scales::comma, limits = c(min(0), max(2000))) +
   labs(title = "Crimes Against Property by Motivational Bias",
        subtitle = "Total Reported Incidents, United States, 2004—2017",
        caption = "Source: FBI UCR Hate Crime Statistics",
