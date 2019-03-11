@@ -57,6 +57,8 @@ Some years are worse than others.
 
 Every year, at least 1,000 individuals will be harmed because of their sexual orientation.
 
+This brief exploratory project presents geospatial, animated, and static visualizations about hate crimes affecting the LGBT community. 
+
 # LGBT Population Estimates
 ___
 While heterosexism and homophobia skew disclosures about sexual orientation, demographic evidence is growing.
