@@ -1,5 +1,4 @@
 # LGBT Hate Crimes Across the U.S.
-___
 From the scandal surrounding [Jussie Smollett](https://www.nytimes.com/2019/02/23/us/jussie-smollett.html) to the [Pulse massacre in Orlando](https://www.cnn.com/2016/06/12/us/orlando-nightclub-shooting/index.html), recent memory teems with examples of hatred against the queer community. 
 
 These two moments are far from equal; Smollett is not Orlando. As evidence mounts to discredit the *Empire* actor, it is vital to remember that hatred is real.
