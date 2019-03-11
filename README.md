@@ -38,7 +38,6 @@ Every year, at least 1,000 individuals will be harmed because of their sexual or
 This brief exploratory project presents geospatial, animated, and static visualizations about hate crimes affecting the LGBT community. 
 
 # LGBT Population Estimates
-___
 While heterosexism and homophobia skew disclosures about sexual orientation, demographic evidence is growing.
 
 Gary Gates and Abigail Cooke of The Williams Institute at UCLA [tabulated data](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Census2010Snapshot-US-v2.pdf?r=1) from the 2010 U.S. Census on same-sex couples. Although these data exclude same-sex couples with concerns about confidentiality and LGBT individuals who are not in traditional monogamous relationships, the estimates unveil the concentration of queer populations across states.
@@ -54,7 +53,6 @@ This heatmap does not account for single LGBT people. It is only an approximatio
 Nonetheless, as we will see, it is a useful point of comparison.
 
 ## Comparing Populations and Hate Crimes
-___
 One would expect hate crimes to occur most frequently in homophobic states.
 
 ![**Figure 6**. The greatest number of hate crimes motivated by sexual orientation occur in New York and California.](data/results/crimes-based-sexual-orientation-across-states.gif)
@@ -80,7 +78,6 @@ Also, law enforcement officers may be reluctant to classify certain crimes as ha
 One may think that the price of pride is steep. Luckily, if we choose to unite as a community, the social support found in growth-fostering relationships will protect and nurture us.
 
 # Types of Crimes Committed
-___
 Earlier, I mentioned the negligible influence of anti-heterosexual attitudes on aggregated data. This is what I mean.
 
 ![**Figure 8**. Anti-gay attitudes about homosexual men are most likely to instigate bias-motivated violence.](data/results/sexual-orientation-breakdown-bias.png)
@@ -109,7 +106,6 @@ Using the aggregated number of incidents motivated by anti-gay attitudes (i.e., 
 Despite this low estimate, the fear of bashing is an undeniable reality. The prevalence of hate crimes may not be large, but their occurrence is problematic.
 
 ## Crimes Against Persons
-___
 The type of crimes committed on the basis of sexual orientation tend to concentrate in a few categories.
 
 ![**Figure 9**. The most frequent bias-motivated crimes against persons are intents to cause bodily harm and fear.](data/results/sexual-orientation-crime-type-against-person-1996-2017.png)
@@ -127,7 +123,6 @@ Gay men are most likely to be assaulted. Perpetrators intimidate and assault les
 More cases of simple assault have been reported over time. A deeper analysis of this trend is warranted.
 
 ## Crimes Against Property
-___
 Bias-motivated crimes can be committed against the proporty of LGBT individuals.
 
 ![**Figure 12**. Vandalism dominates property crimes involving sexual minorities.](data/results/sexual-orientation-crime-type-against-property-1996-2017.png)
@@ -149,7 +144,6 @@ The predominance of vandalism continued overtime.
 Like other chronological trends in these data, the surge of vandalism could be due to the random variance in reporting.
 
 ## Transgender & Gender Non-Conforming
-___
 The FBI did not track crimes motivated by gender identity until 2013.
 
 ![**Figure 15**. Transgenderism inflames hatred more than non-binary categories.](data/results/gender-identity-hate-crimes-2013-2017.png)
@@ -169,7 +163,6 @@ Violent impulses against transgender and gender non-conforming individuals broil
 Another explanation might lie in the validation and subsistence found in sex work. Rejection from both heterosexual and homosexual communities impedes healthy relationships between cisgender and transgender individuals. Sex work may bridge this gap. A tenth of transgender respondents reported engaging in sex work in the [National Transgender Discrimination Survey](https://www.transequality.org/sites/default/files/Meaningful%20Work-Full%20Report_FINAL_3.pdf). Given the rampant discrimination against trans-idenities in the modern workforce, sex work may also be a necessary economic activity for some individuals. Unfortunately, sex for money may increase the risk for interpersonal violence.
 
 # Hate Crime Incidents
-___
 Hopefully these exploratory visualizations aid one's understanding of hate crimes against the LGBT community in the United States. Brief speculation has been offered to contextualize some of the patterns. This post is by no means a complete scientific analysis—consider it an active glimpse into data. 
 
 Speaking of which, from where do these data derive?
@@ -195,7 +188,6 @@ Since the reporting practices of agencies are not uniformly encoded, only the to
 The UCR did not report hate crimes on the basis of gender and gender identity until 2013. Ethnicity and race were collapsed into a single motivation bias in 2015. The aggregated data treat these two social categories as a single variable.
 
 # Resources
-___
 If you have been the victim of a hate crime, seek immediate help.
 
 ### Report
