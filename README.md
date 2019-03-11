@@ -12,7 +12,7 @@ Hate crimes target persons and property on the basis of bias against sexual, rac
 
 The U.S. Department of Justice Federal Bureau of Investigation (FBI) assembles hate crime statistics. Since the inception of the [Uniform Crime Reporting Program](https://www.fbi.gov/services/cjis/ucr) (UCR), 30,649 crimes motivated by sexual orientation were reported.
 
-![**Figure 1**. The flow of crimes based on sexual orientation from the start of UCR until the present day.](https://raw.githubusercontent.com/corycaaz/lgbt-hate-crimes/master/data/results/sexual-orientation-hate-crimes-longer-time.png)
+![**Figure 1**. The flow of crimes based on sexual orientation from the start of UCR until the present day.](data/results/sexual-orientation-hate-crimes-longer-time.png)
 
 We can narrow our historical lens without losing sight of this trend. From 2006 to 2017, bias against lesbian, gay, bisexual, and transgender (LGBT) individuals motivated 16,767 hate crimes.
 
@@ -22,7 +22,7 @@ Over this 11-year period, hatred based on sexual orientation provoked 18.1% of r
 
 It is estimated that only [3.5% of U.S. adults](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Gates-How-Many-People-LGBT-Apr-2011.pdf) identify as lesbian, gay, or bisexual.
 
-![**Figure 3**. Despite comprising 3.5% of the adult population in the United States, lesbian, gay, and bisexual individuals are the victims of 18.1% of all hate crimes.](../data/results/lgb-population-vs-hate-crimes.png)
+![**Figure 3**. Despite comprising 3.5% of the adult population in the United States, lesbian, gay, and bisexual individuals are the victims of 18.1% of all hate crimes.](data/results/lgb-population-vs-hate-crimes.png)
 
 Sexual minorities may not incur the most damages to persons and property from hatred-based violence. But when a hate crime occurs, nearly every fifth victim will identify as lesbian, gay, or bisexual. Given our small percentage of the total U.S. population, this disparity is disturbing.
 
@@ -32,7 +32,7 @@ In any event, bias-motivated crimes disproportionately harm lesbian women, gay m
 
 Some years are worse than others.
 
-![**Figure 4**. Sexual orientation bias versus other types of hate crimes.](../data/results/hate-crime-incidents-other-v-sexual-orientation.gif)
+![**Figure 4**. Sexual orientation bias versus other types of hate crimes.](data/results/hate-crime-incidents-other-v-sexual-orientation.gif)
 
 Every year, at least 1,000 individuals will be harmed because of their sexual orientation.
 
@@ -44,7 +44,7 @@ While heterosexism and homophobia skew disclosures about sexual orientation, dem
 
 Gary Gates and Abigail Cooke of The Williams Institute at UCLA [tabulated data](https://williamsinstitute.law.ucla.edu/wp-content/uploads/Census2010Snapshot-US-v2.pdf?r=1) from the 2010 U.S. Census on same-sex couples. Although these data exclude same-sex couples with concerns about confidentiality and LGBT individuals who are not in traditional monogamous relationships, the estimates unveil the concentration of queer populations across states.
 
-![**Figure 5**. Distribution of same-sex couples across the United States.](../data/results/same-sex-couples-state-2010.png)
+![**Figure 5**. Distribution of same-sex couples across the United States.](data/results/same-sex-couples-state-2010.png)
 
 The graph is unsurprising. 
 
@@ -58,7 +58,7 @@ Nonetheless, as we will see, it is a useful point of comparison.
 ___
 One would expect hate crimes to occur most frequently in homophobic states.
 
-![**Figure 6**. The greatest number of hate crimes motivated by sexual orientation occur in New York and California.](../data/results/crimes-based-sexual-orientation-across-states.gif)
+![**Figure 6**. The greatest number of hate crimes motivated by sexual orientation occur in New York and California.](data/results/crimes-based-sexual-orientation-across-states.gif)
 
 But reported incidents do not support this assumption.
 
@@ -68,7 +68,7 @@ Aside from Hawaii, which reports no data, the states with the least amount of ha
 
 Look at two maps rendered from data in 2010.
 
-![**Figure 7**. Same-sex population versus hate crimes motivated by sexual orientation in 2010.](../data/results/lgb-population-vs-hate-crimes-across-states.png)
+![**Figure 7**. Same-sex population versus hate crimes motivated by sexual orientation in 2010.](data/results/lgb-population-vs-hate-crimes-across-states.png)
 
 The pattern of shading is not identical, but there does appear to be a trend: states with larger queer communities may report more hate crimes. Increased visibility may provoke bigotry and backlash.
 
@@ -84,7 +84,7 @@ One may think that the price of pride is steep. Luckily, if we choose to unite a
 ___
 Earlier, I mentioned the negligible influence of anti-heterosexual attitudes on aggregated data. This is what I mean.
 
-![**Figure 8**. Anti-gay attitudes about homosexual men are most likely to instigate bias-motivated violence.](../data/results/sexual-orientation-breakdown-bias.png)
+![**Figure 8**. Anti-gay attitudes about homosexual men are most likely to instigate bias-motivated violence.](data/results/sexual-orientation-breakdown-bias.png)
 
 Although anti-heterosexism incites *some* violence, these situations are rare. Plus, according to [ProPublica](https://www.propublica.org/article/police-are-mislabeling-crimes-as-anti-heterosexual-hate-crimes), police may erroneously classify hate crimes as anti-heterosexual.
 
@@ -113,17 +113,17 @@ Despite this low estimate, the fear of bashing is an undeniable reality. The pre
 ___
 The type of crimes committed on the basis of sexual orientation tend to concentrate in a few categories.
 
-![**Figure 9**. The most frequent bias-motivated crimes against persons are intents to cause bodily harm and fear.](../data/results/sexual-orientation-crime-type-against-person-1996-2017.png)
+![**Figure 9**. The most frequent bias-motivated crimes against persons are intents to cause bodily harm and fear.](data/results/sexual-orientation-crime-type-against-person-1996-2017.png)
 
 Definitions of assault vary by state. **Simple assault** is typically an [attempt to cause harm](https://www.legalmatch.com/law-library/article/what-is-simple-assault.html) during an altercation. An **aggravated assault** is a [more serious violent contact](https://law.justia.com/codes/georgia/2010/title-16/chapter-5/article-2/16-5-21), often committed with a deadly weapon or an intent to rape, murder, or rob. **Intimidation** is the threat of bodily harm.
 
 How do crimes against persons look within categories of motivational bias?
 
-![**Figure 10**. The most frequent bias-motivated crimes against persons are common across attitudes.](../data/results/sexual-orientation-bias-crimes-persons.png)
+![**Figure 10**. The most frequent bias-motivated crimes against persons are common across attitudes.](data/results/sexual-orientation-bias-crimes-persons.png)
 
 Gay men are most likely to be assaulted. Perpetrators intimidate and assault lesbian women with comparable frequency.
 
-![**Figure 11**. In the late '90s, intimidation was reported more frequently.](../data/results/sexual-orientation-crime-type-against-person-yearly.gif)
+![**Figure 11**. In the late '90s, intimidation was reported more frequently.](data/results/sexual-orientation-crime-type-against-person-yearly.gif)
 
 More cases of simple assault have been reported over time. A deeper analysis of this trend is warranted.
 
@@ -131,13 +131,13 @@ More cases of simple assault have been reported over time. A deeper analysis of 
 ___
 Bias-motivated crimes can be committed against the proporty of LGBT individuals.
 
-![**Figure 12**. Vandalism dominates property crimes involving sexual minorities.](../data/results/sexual-orientation-crime-type-against-property-1996-2017.png)
+![**Figure 12**. Vandalism dominates property crimes involving sexual minorities.](data/results/sexual-orientation-crime-type-against-property-1996-2017.png)
 
 The deliberate destruction of private property is an expression of hatred surpassing most forms of theft.
 
 We can divide these crimes by the top three sexually oriented biases.
 
-![**Figure 13**. Vandalism harms gay men and lesbian women.](../data/results/sexual-orientation-bias-crimes-property.png)
+![**Figure 13**. Vandalism harms gay men and lesbian women.](data/results/sexual-orientation-bias-crimes-property.png)
 
 Regardless of sex, vandalism appears to be the most frequently reported crime against propoerty.
 
@@ -145,7 +145,7 @@ Perpetrators may steal from gay men more often. Although beyond the scope of thi
 
 The predominance of vandalism continued overtime.
 
-![**Figure 14**. Vandalism on the basis of sexual orientation spiked towards the end of the first decade of the 21st century.](../data/results/sexual-orientation-crime-type-against-property-yearly.gif)
+![**Figure 14**. Vandalism on the basis of sexual orientation spiked towards the end of the first decade of the 21st century.](data/results/sexual-orientation-crime-type-against-property-yearly.gif)
 
 Like other chronological trends in these data, the surge of vandalism could be due to the random variance in reporting.
 
@@ -153,7 +153,7 @@ Like other chronological trends in these data, the surge of vandalism could be d
 ___
 The FBI did not track crimes motivated by gender identity until 2013.
 
-![**Figure 15**. Transgenderism inflames hatred more than non-binary categories.](../data/results/gender-identity-hate-crimes-2013-2017.png)
+![**Figure 15**. Transgenderism inflames hatred more than non-binary categories.](data/results/gender-identity-hate-crimes-2013-2017.png)
 
 It should be noted that **Anti-Non-binary** is synonymous with **Anti-Gender Non-Conforming**. The former was used to reserve graphical real estate while the latter is employed by the FBI.
 
@@ -161,7 +161,7 @@ Although we lack the data, it appears that crimes motivated by gender identity p
 
 The breakdown by crime type is more diverse for gender identity than sexual orientation.
 
-![**Figure 16**. Crimes against persons and property based on gender identity.](../data/results/gender-identity-crimes-against-persons-property-2013-2017.png)
+![**Figure 16**. Crimes against persons and property based on gender identity.](data/results/gender-identity-crimes-against-persons-property-2013-2017.png)
 
 This wider variance is, once again, likely caused by fewer reported incidents.
 
@@ -214,8 +214,5 @@ If you have began to use drugs and alcohol as a result of an incident, there are
 If you are religious, [find an affirming Christian church](https://www.gaychurch.org/find_a_church/) near you. [PFLAG](https://pflag.org/) support groups are in most states.
 
 Consider getting involved with the [Anti-Violence Project](https://avp.org/). Contact [LAMBDA](http://www.qrd.org/qrd/www/orgs/avproject/avp_gen.htm) or the [LGBT National Help Center](https://www.glbthotline.org/).
-
-### Source Code
-You can find the source code and datasets that generated these visualizations on my [GitHub page](https://github.com/corycaaz/lgbt-hate-crimes).
 
 Be safe. Stick together. Love one another.
